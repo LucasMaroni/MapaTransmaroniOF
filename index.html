@@ -293,7 +293,7 @@
     const estadoFilter = document.getElementById("estado-filter");
 
     // Carregar dados do JSON
-    fetch("concessionarias.json")
+    fetch('https://raw.githubusercontent.com/LucasMaroni/MapaTransmaroniOF/main/Concessionarias.json')
       .then(response => response.json())
       .then(concessionarias => {
         const markers = [];
@@ -323,7 +323,7 @@
         });
         
 
-        fetch("contatosoficinasofc.json")
+        fetch('https://raw.githubusercontent.com/LucasMaroni/MapaTransmaroniOF/main/contatosoficinasofc.json')
   .then(response => response.json())
   .then(oficinas => {
     oficinas.forEach(of => {
