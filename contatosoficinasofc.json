@@ -1,0 +1,2314 @@
+[
+  {
+    "nome": "BATERIA RJ",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 21 96434-2521",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "ELETRICISTA RJ",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 21 96482-4759",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "FÁBIO ELETRICISTA RJ",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 21 96872-0414",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "ELETRICA GOIAS",
+    "endereco": "GOIÁS, Goiás",
+    "telefone": "55 62 9534-6102",
+    "email": "...",
+    "latitude": -158270.0,
+    "longitude": -498362.0
+  },
+  {
+    "nome": "AUTO ELETRICA CUIABA",
+    "endereco": "CUIABÁ, Mato Grosso do Sul",
+    "telefone": "55 65 9236-2339",
+    "email": "...",
+    "latitude": -15.595833333333,
+    "longitude": -56.096944444444
+  },
+  {
+    "nome": "BORRACHARIA SOS SBC RENAN",
+    "endereco": "SÃO BERNARDO DO CAMPO, São Paulo",
+    "telefone": "55 11 98701-4171",
+    "email": "...",
+    "latitude": -23.693888888889,
+    "longitude": -46.565
+  },
+  {
+    "nome": "COFIPE IVECO CANINDÉ",
+    "endereco": "SÃO PAULO , São Paulo",
+    "telefone": "55 11 99343-2878",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "DALTON SOS RIBEIRÃO PRETO",
+    "endereco": "RIBEIRÃO PRETO, São Paulo",
+    "telefone": "55 16 99739-0662",
+    "email": "...",
+    "latitude": -21.1776315,
+    "longitude": -47.8100983
+  },
+  {
+    "nome": "DANIEL CONSOLIM SCANIA PB LOPES OURINHOS",
+    "endereco": "OURINHOS, São Paulo",
+    "telefone": "55 14 99781-5151",
+    "email": "...",
+    "latitude": -22.978888888889,
+    "longitude": -49.870833333333
+  },
+  {
+    "nome": "DANIEL SOCORRO MECÂNICO ELÉTRICA RIBEIRÃO PRETO",
+    "endereco": "RIBEIRÃO PRETO, São Paulo",
+    "telefone": "55 16 98172-2438",
+    "email": "...",
+    "latitude": -21.1776315,
+    "longitude": -47.8100983
+  },
+  {
+    "nome": "ELETRICISTA SOS PÁTIO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 96371-8434",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "ELETRICISTA SOS VIANA-ES",
+    "endereco": "VIANA, Espírito Santo",
+    "telefone": "55 27 99915-0975",
+    "email": "...",
+    "latitude": -8.91166,
+    "longitude": 13.371025
+  },
+  {
+    "nome": "FLÁVIO TRUCKS SOS CAMPINAS",
+    "endereco": "CAMPINAS, São Paulo",
+    "telefone": "55 19 99646-3626",
+    "email": "...",
+    "latitude": -22.900913888889,
+    "longitude": -47.057294444444
+  },
+  {
+    "nome": "ITAIPU WLM FERNANDO",
+    "endereco": "ITAIPU, Rio de Janeiro",
+    "telefone": "55 31 9981-8850",
+    "email": "...",
+    "latitude": -25.446944444444,
+    "longitude": -54.400833333333
+  },
+  {
+    "nome": "...",
+    "endereco": "JARAGUÁ DO SUL, Santa Catarina",
+    "telefone": "55 11 99490-0233",
+    "email": "...",
+    "latitude": -26.485833333333,
+    "longitude": -49.066944444444
+  },
+  {
+    "nome": "JUSTINO GERENTE AUTO SUECO CAMPINAS",
+    "endereco": "CAMPINAS, São Paulo",
+    "telefone": "55 11 99250-8652",
+    "email": "...",
+    "latitude": -22.900913888889,
+    "longitude": -47.057294444444
+  },
+  {
+    "nome": "KAROLINE SCANIA MEVILLE JOINVILLE",
+    "endereco": "JOINVILLE, Santa Catarina",
+    "telefone": "55 42 9996-9685",
+    "email": "...",
+    "latitude": -26.303888888889,
+    "longitude": -48.845833333333
+  },
+  {
+    "nome": "LEONARDO VW DIBRACAM",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 94022-0477",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "LS DIESEL SOS BETIM",
+    "endereco": "BETIM, Minas Gerais",
+    "telefone": "55 31 9215-8712",
+    "email": "...",
+    "latitude": -19.967777777778,
+    "longitude": -44.197777777778
+  },
+  {
+    "nome": "MB DAVOLI - NATAN",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 19 99451-2215",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MB PERES DIESEL - GREICE (AVARÉ)",
+    "endereco": "AVARÉ, São Paulo",
+    "telefone": "55 19 99841-0896",
+    "email": "...",
+    "latitude": -23.098888888889,
+    "longitude": -48.925833333333
+  },
+  {
+    "nome": "OFICINA MDD CAMPINAS WELLINGTON DONIZETTE",
+    "endereco": "CAMPINAS, São Paulo",
+    "telefone": "55 19 97417-2669",
+    "email": "...",
+    "latitude": -22.900913888889,
+    "longitude": -47.057294444444
+  },
+  {
+    "nome": "OFICINA RIGIER CURITIBA - REGINALDO",
+    "endereco": "CURITIBA, Paraná",
+    "telefone": "55 41 9814-3281",
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  },
+  {
+    "nome": "RAPHAEL POSTO MOLA",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 94914-8356",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "ROBINHO SCANIA COTRASA PINHAIS",
+    "endereco": "PINHAIS, Paraná",
+    "telefone": "55 41 3299-7221",
+    "email": "...",
+    "latitude": -25.535,
+    "longitude": -49.205833333333
+  },
+  {
+    "nome": "SOS BORRACHEIRO CARMÓPOLIS MG BAIANO",
+    "endereco": "CARMÓPOLIS, Minas Gerais",
+    "telefone": "55 37 9941-4693",
+    "email": "...",
+    "latitude": -10.647777777778,
+    "longitude": -36.988888888889
+  },
+  {
+    "nome": "SOS ELETRICISTA RAPOSO TAVARES",
+    "endereco": "RAPOSO TAVARES, São Paulo",
+    "telefone": "55 11 99421-6952",
+    "email": "...",
+    "latitude": -23.591659,
+    "longitude": -46.781365
+  },
+  {
+    "nome": "SOS LIMEIRA GABRIEL",
+    "endereco": "LIMEIRA, São Paulo",
+    "telefone": "55 19 98225-9061",
+    "email": "...",
+    "latitude": -22.564722222222,
+    "longitude": -47.401666666667
+  },
+  {
+    "nome": "VANDECO GUINCHO CAMPINAS",
+    "endereco": "CAMPINAS, São Paulo",
+    "telefone": "55 19 97411-2949",
+    "email": "...",
+    "latitude": -22.900913888889,
+    "longitude": -47.057294444444
+  },
+  {
+    "nome": "WEBERTH CBA DIESEL",
+    "endereco": "CUIABÁ, Mato Grosso",
+    "telefone": "55 11 93018-2905",
+    "email": "...",
+    "latitude": -15.595833333333,
+    "longitude": -56.096944444444
+  },
+  {
+    "nome": "AUTO ELÉTRICA DIASSIS",
+    "endereco": "CEARÁ, Ceará",
+    "telefone": "55 85 9714-8185",
+    "email": "...",
+    "latitude": -54984.0,
+    "longitude": 393206.0
+  },
+  {
+    "nome": "ATACADO UNIÃO (FORTBRAS)",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "55 31 9516-1760",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": 445550.0
+  },
+  {
+    "nome": "AUTO ELÉTRICA GUIDO ARARAS SP",
+    "endereco": "ARARAS, São Paulo",
+    "telefone": "55 19 99928-8685",
+    "email": "...",
+    "latitude": -22.356944444444,
+    "longitude": -47.383888888889
+  },
+  {
+    "nome": "AUTO SOCORRO JG 24 HRS",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "55 35 9125-0766",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": 445550.0
+  },
+  {
+    "nome": "GUARATAC CRONOTACÓGRAFOS LTDA",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 12 3122-1452",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "GUINCHO CAMPINAS",
+    "endereco": "CAMPINAS, São Paulo",
+    "telefone": "55 19 98148-6384",
+    "email": "...",
+    "latitude": -22.900913888889,
+    "longitude": -47.057294444444
+  },
+  {
+    "nome": "GUINCHO CURITIBA 10 BIDU",
+    "endereco": "CURITIBA, Paraná",
+    "telefone": "55 41 9243-0367",
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  },
+  {
+    "nome": "GUINCHO MG",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "55 21 99130-5248",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": -445550.0
+  },
+  {
+    "nome": "GUINCHOS PONTA GROSSA",
+    "endereco": "PONTA GROSSA, Paraná",
+    "telefone": "55 42 9802-1145",
+    "email": "...",
+    "latitude": -25.095,
+    "longitude": -50.161944444444
+  },
+  {
+    "nome": "GUINDASTAO COMERCIAL LUCIANE MATHIAS",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 21 96942-7408",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "JAÚ SP GUINCHO SIDNEY - ROSE",
+    "endereco": "JAÚ, São Paulo",
+    "telefone": "55 14 99710-5064",
+    "email": "...",
+    "latitude": -22.295833333333,
+    "longitude": -48.557777777778
+  },
+  {
+    "nome": "LEONARDO MECÂNICA MG",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "55 38 9860-9485",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": -445550.0
+  },
+  {
+    "nome": "MATHEUS SCHIRMER TK PRESTADOR JÚLIO DE CASTILHOS",
+    "endereco": "JÚLIO DE CASTILHOS, Rio Grande do Sul",
+    "telefone": "55 55 9925-5459",
+    "email": "...",
+    "latitude": -29.226944444444,
+    "longitude": -53.681944444444
+  },
+  {
+    "nome": "MUNIQUE CHAPECO",
+    "endereco": "CHAPECÓ, Santa Catarina",
+    "telefone": "55 49 8829-3633",
+    "email": "...",
+    "latitude": -27.095833333333,
+    "longitude": -52.617777777778
+  },
+  {
+    "nome": "PAULO REIS",
+    "endereco": "MATO GROSSO DO SUL, Mato Grosso do Sul",
+    "telefone": "55 67 9698-5936",
+    "email": "...",
+    "latitude": -207722.0,
+    "longitude": 547852.0
+  },
+  {
+    "nome": "REGINALDO GUINCHO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 95144-7320",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "RENAN PRESTADOR- RMP MECATRONICA",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 98696-7206",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "S. OS BATERIAS MT DO SUL",
+    "endereco": "MATO GROSSO DO SUL, Mato Grosso do Sul",
+    "telefone": "55 67 9255-7994",
+    "email": "...",
+    "latitude": -207722.0,
+    "longitude": -547852.0
+  },
+  {
+    "nome": "S.O.S MECÂNICO INDAIATUBA DOESEL",
+    "endereco": "INDAIATUBA, São Paulo",
+    "telefone": "55 11 94592-4267",
+    "email": "...",
+    "latitude": -23.090277777778,
+    "longitude": -47.218055555556
+  },
+  {
+    "nome": "S.O.S MECÂNICO INDAIATUBA DOESEL",
+    "endereco": "INDAIATUBA, São Paulo",
+    "telefone": "55 65 9331-7504",
+    "email": "...",
+    "latitude": -23.090277777778,
+    "longitude": -47.218055555556
+  },
+  {
+    "nome": "A.C.AUTO CENTER SERVIÇOS MECÂNICOS CARIACICA ESPÍRITO SANTOS",
+    "endereco": "CARIACICA, Espírito Santo",
+    "telefone": "55 27 99733-6760",
+    "email": "...",
+    "latitude": -20.263888888889,
+    "longitude": -40.42
+  },
+  {
+    "nome": "ALECS ITUPEVA",
+    "endereco": "ITUPEVA, São Paulo",
+    "telefone": "55 11 94727-3101",
+    "email": "...",
+    "latitude": -23.153055555556,
+    "longitude": -47.057777777778
+  },
+  {
+    "nome": "ALEX REGISTRO SP FREIOS E SUPENSAO",
+    "endereco": "REGISTRO, São Paulo",
+    "telefone": "55 13 99753-4625",
+    "email": "...",
+    "latitude": -24.487777777778,
+    "longitude": -47.843888888889
+  },
+  {
+    "nome": "ALEX SOCORRO RIO GRANDE DO NORTE (NATAL)",
+    "endereco": "NATAL, Rio Grande do Norte",
+    "telefone": "55 84 9481-0985",
+    "email": "...",
+    "latitude": -5.795,
+    "longitude": -35.208888888889
+  },
+  {
+    "nome": "ALEXANDRE PARABRISA LIMEIRA",
+    "endereco": "LIMEIRA, São Paulo",
+    "telefone": "55 19 97418-1366",
+    "email": "...",
+    "latitude": -22.564722222222,
+    "longitude": -47.401666666667
+  },
+  {
+    "nome": "ANDERSON ELETRICISTA EM NATAL",
+    "endereco": "NATAL, Rio Grande do Norte",
+    "telefone": "55 84 9476-2388",
+    "email": "...",
+    "latitude": -5.795,
+    "longitude": -35.208888888889
+  },
+  {
+    "nome": "ANDRE PARABRISA PIRACICABA",
+    "endereco": "PIRACICABA, São Paulo",
+    "telefone": "55 19 9805-6685",
+    "email": "...",
+    "latitude": -22.725165,
+    "longitude": -47.6493269
+  },
+  {
+    "nome": "ANTONIO AUTO PECA MECANICA GERAL BAHIA",
+    "endereco": "BAHIA, Bahia",
+    "telefone": "55 75 8110-0189",
+    "email": "...",
+    "latitude": -125797.0,
+    "longitude": -417007.0
+  },
+  {
+    "nome": "AUTO ELÉTRICA BOCCHI PRESIDENTE PRUDENTE",
+    "endereco": "PRESIDENTE PRUDENTE, São Paulo",
+    "telefone": "55 18 99798-5018",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "AUTO ELÉTRICA E BATERIAS MATO GROSSO",
+    "endereco": "MATO GROSSO, Mato Grosso",
+    "telefone": "55 66 9604-1290",
+    "email": "...",
+    "latitude": -126819.0,
+    "longitude": -569211.0
+  },
+  {
+    "nome": "AUTO ELÉTRICA LH CURITIBA",
+    "endereco": "CURITIBA, Paraná",
+    "telefone": "55 41 4106-0065",
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  },
+  {
+    "nome": "AUTO ELETRICISTA EM VIANA",
+    "endereco": "VIANA, Espírito Santo",
+    "telefone": "55 27 99915-0975",
+    "email": "...",
+    "latitude": -20.39,
+    "longitude": -40.495833333333
+  },
+  {
+    "nome": "NICANOR BATERIAS",
+    "endereco": "MATO GROSSO, Mato Grosso",
+    "telefone": "55 69 8402-1935",
+    "email": "...",
+    "latitude": -126819.0,
+    "longitude": 569211.0
+  },
+  {
+    "nome": "AUTO ELETRICO HELENA DIAMANTINO MATO GROSSO",
+    "endereco": "DIAMANTINO, Mato Grosso",
+    "telefone": "55 65 9964-0268",
+    "email": "...",
+    "latitude": -14.408888888889,
+    "longitude": -56.445833333333
+  },
+  {
+    "nome": "AUTO ELETRICO HULHA NEGRA RS",
+    "endereco": "HULHA NEGRA, Rio Grande do Sul",
+    "telefone": "55 11 94800-2038",
+    "email": "...",
+    "latitude": -31.403888888889,
+    "longitude": -53.868888888889
+  },
+  {
+    "nome": "AUTO ELETRICO MS",
+    "endereco": "MATO GROSSO DO SUL, Mato Grosso do Sul",
+    "telefone": "55 67 9925-3678",
+    "email": "...",
+    "latitude": -207722.0,
+    "longitude": -547852.0
+  },
+  {
+    "nome": "AUTO MECÂNICA GASODIESEL EM PROMISSÃO",
+    "endereco": "PROMISSÃO, São Paulo",
+    "telefone": "55 14 99873-2079",
+    "email": "...",
+    "latitude": -21.536944444444,
+    "longitude": -49.858333333333
+  },
+  {
+    "nome": "AUTO SOCORRO METROPOLITANO",
+    "endereco": "RIO GRANDE DO SUL, Rio Grande do Sul",
+    "telefone": "55 51 8480-9183",
+    "email": "...",
+    "latitude": -300346.0,
+    "longitude": 512177.0
+  },
+  {
+    "nome": "AUTOGLASS PARABRISA RIO DE JANEIRO",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 27 3203-2535",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "BATERIA",
+    "endereco": "CEARÁ, Ceará",
+    "telefone": "55 84 9420-4996",
+    "email": "...",
+    "latitude": -54984.0,
+    "longitude": 393206.0
+  },
+  {
+    "nome": "BATERIA ESPÍRITO SANTO",
+    "endereco": "ESPÍRITO SANTO, Espírito Santo",
+    "telefone": "55 27 99722-0802",
+    "email": "...",
+    "latitude": -191834.0,
+    "longitude": -403089.0
+  },
+  {
+    "nome": "BATERIA ITUIUTABA MG",
+    "endereco": "ITUIUTABA, Minas Gerais",
+    "telefone": "55 34 9253-3151",
+    "email": "...",
+    "latitude": -18.968888888889,
+    "longitude": -49.465
+  },
+  {
+    "nome": "BETO (AR CONDICIONADO)",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 98880-9697",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "BLIND AUTO VIDROS",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "55 41 3434-2181",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": 445550.0
+  },
+  {
+    "nome": "BORRACHARIA DO ALESSANDRO EM BAURU",
+    "endereco": "BAURU, São Paulo",
+    "telefone": "55 14 99676-3946",
+    "email": "...",
+    "latitude": -22.314722222222,
+    "longitude": -49.060555555556
+  },
+  {
+    "nome": "BORRACHARIA DO MINEIRO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 95410-4193",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "BORRACHARIA EM CAMPINAS SOS",
+    "endereco": "CAMPINAS, São Paulo",
+    "telefone": "55 19 98274-6396",
+    "email": "...",
+    "latitude": -22.900913888889,
+    "longitude": -47.057294444444
+  },
+  {
+    "nome": "BORRACHARIA SAO PAULO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 98035-7540",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "BRILHANTE GUINCHOS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 99869-1144",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "BRUNO SOS MECANICO EM GUARULHOS 5 RODA",
+    "endereco": "GUARULHOS, São Paulo",
+    "telefone": "55 11 96235-5089",
+    "email": "...",
+    "latitude": -23.466666666667,
+    "longitude": -46.533333333333
+  },
+  {
+    "nome": "CAMPO GRANDE MS SOS",
+    "endereco": "CAMPO GRANDE, Mato Grosso do Sul",
+    "telefone": "55 67 9601-4363",
+    "email": "...",
+    "latitude": -20.468611111111,
+    "longitude": -54.622222222222
+  },
+  {
+    "nome": "AUTO ELÉTRICA FRIEDRICH",
+    "endereco": "MATO GROSSO DO SUL, Mato Grosso do Sul",
+    "telefone": "55 67 9621-2810",
+    "email": "...",
+    "latitude": -207722.0,
+    "longitude": 547852.0
+  },
+  {
+    "nome": "CARLOS AR CONDICIONADO E ELÉTRICA ANHANGUERA",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 98879-0761",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "CARLOS SOLER CONCERTO DE BAU EM SUMARÉ",
+    "endereco": "SUMARÉ, São Paulo",
+    "telefone": "55 19 98294-2386",
+    "email": "...",
+    "latitude": -22.821944444444,
+    "longitude": -47.266944444444
+  },
+  {
+    "nome": "CASA DAS BATERIAS EM SANTOS",
+    "endereco": "SANTOS, São Paulo",
+    "telefone": "55 13 3234-8434",
+    "email": "...",
+    "latitude": -23.960833333333,
+    "longitude": -46.333888888889
+  },
+  {
+    "nome": "CASA DAS BATERIAS UBERABA MINAS GERAIS",
+    "endereco": "UBERABA, Minas Gerais",
+    "telefone": "55 34 3336-6250",
+    "email": "...",
+    "latitude": -19.747777777778,
+    "longitude": -47.931944444444
+  },
+  {
+    "nome": "CASA DE BATERIA BAGE",
+    "endereco": "BAGÉ, Rio Grande do Sul",
+    "telefone": "55 53 9910-2840",
+    "email": "...",
+    "latitude": -31.330833333333,
+    "longitude": -54.106944444444
+  },
+  {
+    "nome": "CASA DE BATERIA EM ESPÍRITO SANTO",
+    "endereco": "ESPÍRITO SANTO, Espírito Santo",
+    "telefone": "55 27 3441-5408",
+    "email": "...",
+    "latitude": -191834.0,
+    "longitude": -403089.0
+  },
+  {
+    "nome": "CASA DE BATERIA FLORIANÓPOLIS",
+    "endereco": "FLORIANÓPOLIS, Santa Catarina",
+    "telefone": "55 48 8403-0932",
+    "email": "...",
+    "latitude": -27.593280555556,
+    "longitude": -48.553047222222
+  },
+  {
+    "nome": "CASA DE BATERIA MATO GROSSO",
+    "endereco": "MATO GROSSO, Mato Grosso",
+    "telefone": "55 65 8106-4712",
+    "email": "...",
+    "latitude": -126819.0,
+    "longitude": -569211.0
+  },
+  {
+    "nome": "CASA DE BATERIA PRESIDENTE PRUDENTE SOS",
+    "endereco": "PRESIDENTE PRUDENTE, São Paulo",
+    "telefone": "55 18 99777-4353",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "CASAS DE BATERIA EM ITATIM BA",
+    "endereco": "ITATIM, Bahia",
+    "telefone": "55 75 8128-5313",
+    "email": "...",
+    "latitude": -12.711944444444,
+    "longitude": -39.697777777778
+  },
+  {
+    "nome": "CERQUEIRA GUINCHOS 24H ITARANA BAHIA",
+    "endereco": "ITARANA, Bahia",
+    "telefone": "55 75 9967-1678",
+    "email": "...",
+    "latitude": -19.873888888889,
+    "longitude": -40.875
+  },
+  {
+    "nome": "CHAVEIRO EM VIANA ES",
+    "endereco": "VIANA, Espírito Santo",
+    "telefone": "55 27 99621-3058",
+    "email": "...",
+    "latitude": -20.39,
+    "longitude": -40.495833333333
+  },
+  {
+    "nome": "CLAUDINEI PIRACICABA E LIMEIRA",
+    "endereco": "PIRACICABA/LIMEIRA, São Paulo",
+    "telefone": "55 19 99838-4068",
+    "email": "...",
+    "latitude": -22.725165,
+    "longitude": -47.6493269
+  },
+  {
+    "nome": "CLEVERSON C J MIKA GUINCHOS",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "55 41 9697-6990",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": 445550.0
+  },
+  {
+    "nome": "CLÓVIS TERMOKING EM RIBEIRÃO DO RIO PRETO",
+    "endereco": "RIBEIRÃO PRETO, São Paulo",
+    "telefone": "55 17 98194-6583",
+    "email": "...",
+    "latitude": -21.1776315,
+    "longitude": -47.8100983
+  },
+  {
+    "nome": "CONSULTORA ANA CAROLINE TK GOIAS",
+    "endereco": "GOIÁS, Goiás",
+    "telefone": "55 62 9257-9577",
+    "email": "...",
+    "latitude": -158270.0,
+    "longitude": -498362.0
+  },
+  {
+    "nome": "DALTON SOS MECANICO RIBEIRÃO PRETO",
+    "endereco": "RIBEIRÃO PRETO, São Paulo",
+    "telefone": "55 16 99739-0662",
+    "email": "...",
+    "latitude": -21.1776315,
+    "longitude": -47.8100983
+  },
+  {
+    "nome": "DANIEL ELETRISTA RIBEIRÃO PRETO",
+    "endereco": "RIBEIRÃO PRETO, São Paulo",
+    "telefone": "55 16 98172-2438",
+    "email": "...",
+    "latitude": -21.1776315,
+    "longitude": -47.8100983
+  },
+  {
+    "nome": "DIONE - ELETRICISTA MONTES CLARO SALINAS",
+    "endereco": "MONTES CLAROS/SALINAS, Minas Gerais",
+    "telefone": "55 38 9969-5244",
+    "email": "...",
+    "latitude": -16.732222222222,
+    "longitude": -43.863611111111
+  },
+  {
+    "nome": "DIVINO THERMO KLIMA GOIÁS",
+    "endereco": "GOIÁS, Goiás",
+    "telefone": "55 64 9223-4689",
+    "email": "...",
+    "latitude": -158270.0,
+    "longitude": -498362.0
+  },
+  {
+    "nome": "DONIZETE AUTO ELETRICA BAURU",
+    "endereco": "BAURU, São Paulo",
+    "telefone": "55 14 99795-2134",
+    "email": "...",
+    "latitude": -22.314722222222,
+    "longitude": -49.060555555556
+  },
+  {
+    "nome": "EDISON MECANICO EM EXTREMA MINAS GERAIS",
+    "endereco": "EXTREMA, Minas Gerais",
+    "telefone": "55 35 9972-6583",
+    "email": "...",
+    "latitude": -22.855,
+    "longitude": -46.317777777778
+  },
+  {
+    "nome": "ELÉTRICA VÁRZEA GRANDE",
+    "endereco": "VÁRZEA GRANDE, Mato Grosso",
+    "telefone": "55 65 8421-4924",
+    "email": "...",
+    "latitude": -15.646944444444,
+    "longitude": -56.132777777778
+  },
+  {
+    "nome": "ELETRICISTA EM BAURU",
+    "endereco": "BAURU, São Paulo",
+    "telefone": "55 14 99771-3342",
+    "email": "...",
+    "latitude": -22.314722222222,
+    "longitude": -49.060555555556
+  },
+  {
+    "nome": "ELETRICISTA EM FORTALEZA",
+    "endereco": "FORTALEZA, Ceará",
+    "telefone": "55 85 8845-9933",
+    "email": "...",
+    "latitude": -3.7275,
+    "longitude": -38.5275
+  },
+  {
+    "nome": "ELETRICISTA EM ITARANA BAHIA",
+    "endereco": "ITARANA, Bahia",
+    "telefone": "55 75 9824-0019",
+    "email": "...",
+    "latitude": -19.873888888889,
+    "longitude": -40.875
+  },
+  {
+    "nome": "ELETRICISTA ITAJAI",
+    "endereco": "ITAJAÍ, Santa Catarina",
+    "telefone": "55 47 9916-0198",
+    "email": "...",
+    "latitude": -26.907777777778,
+    "longitude": -48.661944444444
+  },
+  {
+    "nome": "ELETRICISTA RIBEIRÃO PRETO",
+    "endereco": "RIBEIRÃO PRETO, São Paulo",
+    "telefone": "55 16 98195-4970",
+    "email": "...",
+    "latitude": -21.1776315,
+    "longitude": -47.8100983
+  },
+  {
+    "nome": "ELETRISCISTA CAMPO GRANDE MS",
+    "endereco": "CAMPO GRANDE, Mato Grosso do Sul",
+    "telefone": "55 67 9621-2810",
+    "email": "...",
+    "latitude": -20.468611111111,
+    "longitude": -54.622222222222
+  },
+  {
+    "nome": "EUROPA VIDRO PIRACICABA",
+    "endereco": "PIRACICABA, São Paulo",
+    "telefone": "55 19 98391-0622",
+    "email": "...",
+    "latitude": -22.725165,
+    "longitude": -47.6493269
+  },
+  {
+    "nome": "EVANDRO SOS PONTA GROSSA PARANA",
+    "endereco": "PONTA GROSSA, Paraná",
+    "telefone": "55 42 9944-6586",
+    "email": "...",
+    "latitude": -25.095,
+    "longitude": -50.161944444444
+  },
+  {
+    "nome": "FABIO CONSULTOR FACCHINI",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 96290-8400",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "FÁBIO MECANICO EM ESPÍRITO SANTOS",
+    "endereco": "ESPÍRITO SANTO, Espírito Santo",
+    "telefone": "55 27 99762-2700",
+    "email": "...",
+    "latitude": -191834.0,
+    "longitude": -403089.0
+  },
+  {
+    "nome": "FÁBIO SOCORRO NO RIO DE JANEIRO",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 21 96872-0414",
+    "email": "...",
+    "latitude": -229068.0,
+    "longitude": -431729.0
+  },
+  {
+    "nome": "FACCHINI SAO JOSE DO RIO PRETO",
+    "endereco": "SÃO JOSÉ DO RIO PRETO, São Paulo",
+    "telefone": "55 17 99206-3783",
+    "email": "...",
+    "latitude": -20.82,
+    "longitude": -49.378888888889
+  },
+  {
+    "nome": "FERNANDO MECANICO A DISEIL",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 16 99706-2718",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "FERNANDO MECÂNICO SOCORRO SAO PAULO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 99316-4593",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "FLÁVIO TRUCKS SOCORRO EM AMERICANAS",
+    "endereco": "AMERICANA, São Paulo",
+    "telefone": "55 19 99646-3626",
+    "email": "...",
+    "latitude": -22.738888888889,
+    "longitude": -47.330833333333
+  },
+  {
+    "nome": "FLORIPA MECANICO EM CELSO RAMOS SC",
+    "endereco": "CELSO RAMOS, Santa Catarina",
+    "telefone": "55 48 9639-9572",
+    "email": "...",
+    "latitude": -27.633888888889,
+    "longitude": -51.335833333333
+  },
+  {
+    "nome": "FORTALEZA MECÂNICO",
+    "endereco": "FORTALEZA, Ceará",
+    "telefone": "55 85 9102-2925",
+    "email": "...",
+    "latitude": -3.7275,
+    "longitude": -38.5275
+  },
+  {
+    "nome": "FORTE VIDROS E ACESSÓRIOS POUSO ALEGRE",
+    "endereco": "POUSO ALEGRE, Minas Gerais",
+    "telefone": "55 35 9940-0743",
+    "email": "...",
+    "latitude": -22.228055555556,
+    "longitude": -45.933611111111
+  },
+  {
+    "nome": "GABRIEL SOS EM LIMEIRA MECANICA E ELÉTRICA",
+    "endereco": "LIMEIRA, São Paulo",
+    "telefone": "55 19 98225-9061",
+    "email": "...",
+    "latitude": -22.564722222222,
+    "longitude": -47.401666666667
+  },
+  {
+    "nome": "GENILDO SOCORRISTA BAHIA CARRETA SIDER",
+    "endereco": "BAHIA, Bahia",
+    "telefone": "55 71 8612-1731",
+    "email": "...",
+    "latitude": -125797.0,
+    "longitude": -417007.0
+  },
+  {
+    "nome": "GUILHERME DT PECAS FRANCA",
+    "endereco": "FRANCA, São Paulo",
+    "telefone": "55 16 99969-3768",
+    "email": "...",
+    "latitude": -20.538888888889,
+    "longitude": -47.400833333333
+  },
+  {
+    "nome": "GUINCHO 24 HORAS NILTON GOV. CELSO RAMOS SC",
+    "endereco": "CELSO RAMOS, Santa Catarina",
+    "telefone": "55 48 3342-0118",
+    "email": "...",
+    "latitude": -27.633888888889,
+    "longitude": -51.335833333333
+  },
+  {
+    "nome": "GUINCHO ARARAS",
+    "endereco": "ARARAS, São Paulo",
+    "telefone": "55 19 98809-1262",
+    "email": "...",
+    "latitude": -22.356944444444,
+    "longitude": -47.383888888889
+  },
+  {
+    "nome": "GUINCHO EM CELSO RAMOS SC",
+    "endereco": "CELSO RAMOS, Santa Catarina",
+    "telefone": "55 48 8415-2225",
+    "email": "...",
+    "latitude": -27.633888888889,
+    "longitude": -51.335833333333
+  },
+  {
+    "nome": "GUINCHOS PESADOS E MUNCK",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 95144-7320",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "GUSTAVO HENRIQUE SOCORRO LIMEIRA",
+    "endereco": "LIMEIRA, São Paulo",
+    "telefone": "55 19 99505-5449",
+    "email": "...",
+    "latitude": -22.564722222222,
+    "longitude": -47.401666666667
+  },
+  {
+    "nome": "GUSTAVO MARQUES - GIIRO THERMO KING",
+    "endereco": "MATO GROSSO, Mato Grosso",
+    "telefone": "55 65 9212-0541",
+    "email": "...",
+    "latitude": -126819.0,
+    "longitude": 569211.0
+  },
+  {
+    "nome": "H FREITAS BATERIAS SANTOS",
+    "endereco": "SANTOS, São Paulo",
+    "telefone": "55 13 3234-2219",
+    "email": "...",
+    "latitude": -23.960833333333,
+    "longitude": -46.333888888889
+  },
+  {
+    "nome": "HENRIQUE VILHENA RO TK",
+    "endereco": "VILHENA, Rondônia",
+    "telefone": "55 69 8162-1888",
+    "email": "...",
+    "latitude": -12.740555555556,
+    "longitude": -60.145833333333
+  },
+  {
+    "nome": "ILHA REFRIGERAÇÃO LTDA",
+    "endereco": "SANTA CATARINA, Santa Catarina",
+    "telefone": "55 48 8402-8443",
+    "email": "...",
+    "latitude": -272423.0,
+    "longitude": 502189.0
+  },
+  {
+    "nome": "IVAN NUNES SOCORRO ITUPEVA",
+    "endereco": "ITUPEVA, São Paulo",
+    "telefone": "55 11 94816-9131",
+    "email": "...",
+    "latitude": -23.153055555556,
+    "longitude": -47.057777777778
+  },
+  {
+    "nome": "J W CONCERTO DE SIDER GOIAS",
+    "endereco": "GOIÁS, Goiás",
+    "telefone": "55 84 9984-4836",
+    "email": "...",
+    "latitude": -158270.0,
+    "longitude": -498362.0
+  },
+  {
+    "nome": "JN CASA DE BATERIAS EM ITAJAÍ",
+    "endereco": "ITAJAÍ, Santa Catarina",
+    "telefone": "55 47 9649-5639",
+    "email": "...",
+    "latitude": -26.907777777778,
+    "longitude": -48.661944444444
+  },
+  {
+    "nome": "JONATHAN SOS EM SANTA CATARINA",
+    "endereco": "SANTA CATARINA, Santa Catarina",
+    "telefone": "55 48 9697-1083",
+    "email": "...",
+    "latitude": -272423.0,
+    "longitude": -502189.0
+  },
+  {
+    "nome": "JORGE (SOS MECANICO)",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 95567-7276",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "JOSUEL ARAUJO AGENTE DE PLACAS IGARASSU",
+    "endereco": "IGARASSU, Pernambuco",
+    "telefone": "55 81 98146-2116",
+    "email": "...",
+    "latitude": -7.8338888888889,
+    "longitude": -34.905833333333
+  },
+  {
+    "nome": "JUSSARA SOCORRO EM SANTO ANDRÉ",
+    "endereco": "SANTO ANDRÉ, São Paulo",
+    "telefone": "55 11 94743-9699",
+    "email": "...",
+    "latitude": -23.6533349,
+    "longitude": -46.5279508
+  },
+  {
+    "nome": "LEANDRO BATERIAS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 19 9941-2612",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "LEANDRO GUEDES",
+    "endereco": "RIO GRANDE DO SUL, Rio Grande do Norte",
+    "telefone": "55 84 9961-0594",
+    "email": "...",
+    "latitude": -57945.0,
+    "longitude": 365265.0
+  },
+  {
+    "nome": "LENINE AUTO SOCORRO",
+    "endereco": "CEARÁ, Ceará",
+    "telefone": "55 85 99622-1378",
+    "email": "...",
+    "latitude": -54984.0,
+    "longitude": 393206.0
+  },
+  {
+    "nome": "LOJINHA DA BATERIA",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "55 33 3276-7450",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": 445550.0
+  },
+  {
+    "nome": "LUIS SILVA ELETRICISTA",
+    "endereco": "CEARÁ, Ceará",
+    "telefone": "55 85 99199-1838",
+    "email": "...",
+    "latitude": -54984.0,
+    "longitude": 393206.0
+  },
+  {
+    "nome": "LUCAS AUTO SOCORRO",
+    "endereco": "MATO GROSSO, Mato Grosso",
+    "telefone": "55 19 98199-2217",
+    "email": "...",
+    "latitude": -126819.0,
+    "longitude": 569211.0
+  },
+  {
+    "nome": "LUAN ELETRO- REFRIGERAÇÃO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 65 9997-1525",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "LUAN SILVA AUTO SOCORRO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 97032-3546",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MAGNO GUINCHO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 97318-1538",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MARCELO SERVIÇO DE BATERIAS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 98608-9991",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MARCELO AUTO SOCORRO EM SÃO PAULO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 99270-0165",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MARIO - AUTO ELETRICO E MECANICA",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 84 99178-0465",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MATHEUS AUTO ELÉTRICO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 96291-4994",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MAXUEL MECANICO SOS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 12 98231-2690",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MICHAEL AMPLA ELETRO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 98161-1923",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MICHEL - AUTO SOCORRO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 97348-4872",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MICHEL MECANICO SOS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 96143-1257",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MOACIR MECÂNICO",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 16 99103-9343",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "MONIQUE MARAJO CAIXAS PEÇAS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 97979-9029",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "NELSON ELETRICO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 19 99944-7856",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "NETÃO - MECANICO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 19 99348-2527",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "NILSON AUTO SOCORRO EM SÃO PAULO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 95270-5925",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "NILO ELETRO REFRIGERAÇÃO",
+    "endereco": "MATO GROSSO DO SUL, Mato Grosso do Sul",
+    "telefone": "55 61 99116-5089",
+    "email": "...",
+    "latitude": -207722.0,
+    "longitude": 547852.0
+  },
+  {
+    "nome": "OTAVIANO JÚNIOR SOCORRISTA",
+    "endereco": "GOIÁS, Goiás",
+    "telefone": "55 62 99971-3700",
+    "email": "...",
+    "latitude": -158270.0,
+    "longitude": 498362.0
+  },
+  {
+    "nome": "PARABRISA DO ORIENTE",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 94966-2858",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "PEDRO - MECANICO SOS",
+    "endereco": "CAIEIRAS, São Paulo",
+    "telefone": "55 11 97445-3708",
+    "email": "...",
+    "latitude": -23.364444444444,
+    "longitude": -46.740833333333
+  },
+  {
+    "nome": "PIMENTEL AUTO SOCORRO",
+    "endereco": "CUIABÁ, Mato Grosso",
+    "telefone": "55 11 98194-6603",
+    "email": "...",
+    "latitude": -15.595833333333,
+    "longitude": -56.096944444444
+  },
+  {
+    "nome": "R D M BATERIA E AUTOMÓVEIS",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "55 31 98122-3176",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": 445550.0
+  },
+  {
+    "nome": "RICARDO TERO",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 48 98148-6327",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "ROBSON GUIMARÃES - SOCORRO",
+    "endereco": "UBERABA, Minas Gerais",
+    "telefone": "55 21 96505-8375",
+    "email": "...",
+    "latitude": -19.747777777778,
+    "longitude": -47.931944444444
+  },
+  {
+    "nome": "ROBERTO ELETRO RIO",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 21 99530-2727",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "RONAN MECANICO SOS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 98835-5070",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "SÃO PAULO AUTO SOCORRO",
+    "endereco": "GOIÁS, Goiás",
+    "telefone": "55 11 96416-8561",
+    "email": "...",
+    "latitude": -158270.0,
+    "longitude": -498362.0
+  },
+  {
+    "nome": "SEBASTIÃO MECANICO",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 11 96461-2752",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "SIDNEY AR CONDICIONADO 24 HORAS",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 11 98180-3760",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "THIAGO SOS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 97092-4929",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "THIGO MECÂNICO SOS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 98157-1498",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "VAGNER AUTO SOCORRO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 96267-8820",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "VICTOR - AUTO ELETRICO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 98616-0876",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "AF EMBREAGENS AUTO DIESEL ELÉTRICA CAIEIRAS",
+    "endereco": "CAIEIRAS, São Paulo",
+    "telefone": "55 11 97031-8880",
+    "email": "...",
+    "latitude": -23.364444444444,
+    "longitude": -46.740833333333
+  },
+  {
+    "nome": "AUTO ELÉTRICA CUIABÁ",
+    "endereco": "CUIABÁ, Mato Grosso",
+    "telefone": "55 65 9331-7504",
+    "email": "...",
+    "latitude": -15.595833333333,
+    "longitude": -56.096944444444
+  },
+  {
+    "nome": "AUTO VIDROS VR",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 94023-2346",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "BATERIA RJ",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 21 96434-2521",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "CASA DAS BATERIAS UBERABA MG",
+    "endereco": "UBERABA, Minas Gerais",
+    "telefone": "55 34 3336-6250",
+    "email": "...",
+    "latitude": -19.747777777778,
+    "longitude": -47.931944444444
+  },
+  {
+    "nome": "CONSERTA CAJAMAR CARROS",
+    "endereco": "CAJAMAR, São Paulo",
+    "telefone": "55 11 94800-2038",
+    "email": "...",
+    "latitude": -23.355833333333,
+    "longitude": -46.876944444444
+  },
+  {
+    "nome": "DILSINHO SOS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 12 99724-3917",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "ELETRICA GOIÁS",
+    "endereco": "GOIÁS, Goiás",
+    "telefone": "55 62 9534-6102",
+    "email": "...",
+    "latitude": -158270.0,
+    "longitude": -498362.0
+  },
+  {
+    "nome": "FÁBIO ELETRICISTA RJ",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 21 96872-0414",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "LEONARDO RIO JANEIRO",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "55 21 98248-3280",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "MCM MOLAS",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 94788-0079",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "RICARDO LIMA AR",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 99859-7313",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "MICHEL PIAES BORRACHERIO",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "55 41 9103-8477",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": 445550.0
+  },
+  {
+    "nome": "STAR TRUCK AR CONDICIONADO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "55 11 5197-8182",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "SOS Jequié/BA - Cristiano",
+    "endereco": "JEQUIÉ, Bahia",
+    "telefone": "55 73 8846-6162",
+    "email": "...",
+    "latitude": -13.857777777778,
+    "longitude": -40.083888888889
+  },
+  {
+    "nome": "SOS Jequié/BA - Wesley",
+    "endereco": "JEQUIÉ, Bahia",
+    "telefone": "55 73 8864-8245",
+    "email": "...",
+    "latitude": -13.857777777778,
+    "longitude": -40.083888888889
+  },
+  {
+    "nome": "Sodscania Vitória Conquista-BA",
+    "endereco": "VITÓRIA DA CONQUISTA, Bahia",
+    "telefone": "55 77 3424-6216",
+    "email": "...",
+    "latitude": -14.865833333333,
+    "longitude": -40.838888888889
+  },
+  {
+    "nome": "Sodscania Vitória da Conquista-BA Junior",
+    "endereco": "VITÓRIA DA CONQUISTA, Bahia",
+    "telefone": "55 77 9128-0124",
+    "email": "...",
+    "latitude": -14.865833333333,
+    "longitude": -40.838888888889
+  },
+  {
+    "nome": "SOS 24hrs Jequié/BA - Flávio",
+    "endereco": "JEQUIÉ, Bahia",
+    "telefone": "55 73 8896-6839",
+    "email": "...",
+    "latitude": -13.857777777778,
+    "longitude": -40.083888888889
+  },
+  {
+    "nome": "SOS Alagoas - Leandro",
+    "endereco": "ALAGOAS, Alagoas",
+    "telefone": "55 82 9837-5528",
+    "email": "...",
+    "latitude": -95713.0,
+    "longitude": -367820.0
+  },
+  {
+    "nome": "SOS 24hrs Jundiaí/SP",
+    "endereco": "JUNDAÍ, São Paulo",
+    "telefone": "55 11 97889-6397",
+    "email": "...",
+    "latitude": -23.186388888889,
+    "longitude": -46.884166666667
+  },
+  {
+    "nome": "SOS Eletricista 24hrs Várzea Grande/MT",
+    "endereco": "VÁRZEA GRANDE, Mato Grosso",
+    "telefone": "55 65 9901-7331",
+    "email": "...",
+    "latitude": -15.646944444444,
+    "longitude": -56.132777777778
+  },
+  {
+    "nome": "Rogério Mecânico",
+    "endereco": "BAHIA, Bahia",
+    "telefone": "55 71 91820-0798",
+    "email": "...",
+    "latitude": -125797.0,
+    "longitude": -417007.0
+  },
+  {
+    "nome": "Mecânico Curitiba",
+    "endereco": "CURITIBA, Paraná",
+    "telefone": "55 41 9810-4553",
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  },
+  {
+    "nome": "Toninho Mecânico",
+    "endereco": "PONTA GROSSA, Paraná",
+    "telefone": "55 42 9932-4713",
+    "email": "...",
+    "latitude": -25.095,
+    "longitude": -50.161944444444
+  },
+  {
+    "nome": "Joeder Arruda Mecanico",
+    "endereco": "VÁRZEA GRANDE, Mato Grosso",
+    "telefone": "55 65 9638-7200",
+    "email": "...",
+    "latitude": -15.646944444444,
+    "longitude": -56.132777777778
+  },
+  {
+    "nome": "Luciano Camargo Mecânico",
+    "endereco": "RIBEIRÃO PRETO, São Paulo",
+    "telefone": "55 16 99454-7735",
+    "email": "...",
+    "latitude": -21.1776315,
+    "longitude": -47.8100983
+  },
+  {
+    "nome": "Leandro Mecânico",
+    "endereco": "CONTAGEM, Minas Gerais",
+    "telefone": "55 31 9168-3775",
+    "email": "...",
+    "latitude": -19.931944444444,
+    "longitude": -44.053888888889
+  },
+  {
+    "nome": "Marcos Vinícius Mecânico",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "55 34 9715-5005",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": -445550.0
+  },
+  {
+    "nome": "Renan Mecanica/Elétrica",
+    "endereco": "SP, São Paulo",
+    "telefone": "+55 11 95153-7928",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "Jiva Socorro Mecanico 24horas",
+    "endereco": "NOVA ALVORADA DO SUL, Mato Grosso do Sul",
+    "telefone": "+55 67 9938-7300",
+    "email": "...",
+    "latitude": -21.465833333333,
+    "longitude": -54.383888888889
+  },
+  {
+    "nome": "Silas Bauru Mecanico Beu",
+    "endereco": "BAURU, São Paulo",
+    "telefone": "+55 14 99731-6884",
+    "email": "...",
+    "latitude": -22.314722222222,
+    "longitude": -49.060555555556
+  },
+  {
+    "nome": "Ricardo Kadu Socorrista Mecanica",
+    "endereco": "MORRO DOCE, São Paulo",
+    "telefone": "+55 11 94736-8505",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "Gabriel Mecânico",
+    "endereco": "LIMEIRA, São Paulo",
+    "telefone": "+55 19 98225-9061",
+    "email": "...",
+    "latitude": -22.564722222222,
+    "longitude": -47.401666666667
+  },
+  {
+    "nome": "Carlos Mecânico",
+    "endereco": "PONTA GROSSA, Paraná",
+    "telefone": "+55 42 9965-3437",
+    "email": "...",
+    "latitude": -25.095,
+    "longitude": -50.161944444444
+  },
+  {
+    "nome": "Cojac Mecanico",
+    "endereco": "LOUVEIRA, São Paulo",
+    "telefone": "+55 11 99713-3198",
+    "email": "...",
+    "latitude": -23.086388888889,
+    "longitude": -46.950555555556
+  },
+  {
+    "nome": "Maguila Mecânica",
+    "endereco": "CEARÁ, Ceará",
+    "telefone": "+55 85 8687-0016",
+    "email": "...",
+    "latitude": -54984.0,
+    "longitude": 393206.0
+  },
+  {
+    "nome": "Gabriel Costa Mecanico",
+    "endereco": "MINEIROS, Goiás",
+    "telefone": "+55 64 9965-8940",
+    "email": "...",
+    "latitude": -17.568888888889,
+    "longitude": -52.550833333333
+  },
+  {
+    "nome": "Daniel Mecanico",
+    "endereco": "RIBEIRÃO PRETO, São Paulo",
+    "telefone": "+55 16 98172-2438",
+    "email": "...",
+    "latitude": -21.1776315,
+    "longitude": -47.8100983
+  },
+  {
+    "nome": "Alex Mecânico",
+    "endereco": "RIBEIRÃO PRETO, São Paulo",
+    "telefone": "+55 16 98818-8878",
+    "email": "...",
+    "latitude": -21.1776315,
+    "longitude": -47.8100983
+  },
+  {
+    "nome": "Mecânica Auto Socorro Roseira",
+    "endereco": "ROSEIRA, São Paulo",
+    "telefone": "+55 12 99205-0157",
+    "email": "...",
+    "latitude": -22.897777777778,
+    "longitude": -45.305
+  },
+  {
+    "nome": "POKEMON AUTO SOCORRO",
+    "endereco": "CURITIBA, Paraná",
+    "telefone": "+55 41 9785-4114",
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  },
+  {
+    "nome": "Socorro Borracharia",
+    "endereco": "JARAGUÁ, São Paulo",
+    "telefone": "+55 11 98035-7540",
+    "email": "...",
+    "latitude": -15.756944444444,
+    "longitude": -49.333888888889
+  },
+  {
+    "nome": "Jiva Socorro Mecanico 24horas",
+    "endereco": "NOVA ALVORADA DO SUL, Mato Grosso do Sul",
+    "telefone": "+55 67 9938-7300",
+    "email": "...",
+    "latitude": -21.465833333333,
+    "longitude": -54.383888888889
+  },
+  {
+    "nome": "Mecanico 24h",
+    "endereco": "BOM JESUS DO AMPARO, Minas Gerais",
+    "telefone": "+55 19 98226-1404",
+    "email": "...",
+    "latitude": -19.703888888889,
+    "longitude": -43.473888888889
+  },
+  {
+    "nome": "Guincho Curitiba 10 Bidu",
+    "endereco": "CURITIBA, Paraná",
+    "telefone": "+55 41 9243-0367",
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  },
+  {
+    "nome": "Ricardo AR Condicionado",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "+55 11 99859-7313",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "Reginaldo GUINCHO",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "+55 11 95144-7320",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "Guincho em Monlevade",
+    "endereco": "MINAS GERAIS, Minas Gerais",
+    "telefone": "+55 31 9460-4607",
+    "email": "...",
+    "latitude": -185122.0,
+    "longitude": -445550.0
+  },
+  {
+    "nome": "Guinchos Ponta Grossa",
+    "endereco": "PONTA GROSSA, Paraná",
+    "telefone": "+55 42 9802-1145",
+    "email": "...",
+    "latitude": -25.095,
+    "longitude": -50.161944444444
+  },
+  {
+    "nome": "REFRIAR MAX THERMO KING",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "+55 17 99168-4004",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "Maurilho Eletricista",
+    "endereco": "SÃO JOSÉ DOS PINHAIS, Paraná",
+    "telefone": "+55 41 9654-7508",
+    "email": "...",
+    "latitude": -25.535,
+    "longitude": -49.205833333333
+  },
+  {
+    "nome": "Juraci Socorro Thermoking",
+    "endereco": "PRESIDENTE PRUDENTE, São Paulo",
+    "telefone": "+55 18 99773-1612",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "Guilherme Refrimax",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "+55 14 99669-9060",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "Milimar Tk",
+    "endereco": "RONDONÓPOLIS, Mato Grosso",
+    "telefone": "+55 66 9933-3475",
+    "email": "...",
+    "latitude": -16.470833333333,
+    "longitude": -54.635833333333
+  },
+  {
+    "nome": "Auto Elétrica GUIDO",
+    "endereco": "ARARAS, São Paulo",
+    "telefone": "+55 19 99928-8685",
+    "email": "...",
+    "latitude": -22.356944444444,
+    "longitude": -47.383888888889
+  },
+  {
+    "nome": "Kelton Vitoria Diesel",
+    "endereco": "ESPÍRITO SANTO, Espírito Santo",
+    "telefone": "+55 27 99515-5026",
+    "email": "...",
+    "latitude": -191834.0,
+    "longitude": -403089.0
+  },
+  {
+    "nome": "Kelber Diesel 🆘",
+    "endereco": "SÃO PAULO, São Paulo",
+    "telefone": "+55 11 94833-1327",
+    "email": "...",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222
+  },
+  {
+    "nome": "jubens SOS Mecanico Em São Gonçalo Do Sapucaí MG",
+    "endereco": "SAPUCAÍA, Minas Gerais",
+    "telefone": "55 35 9836-6803",
+    "email": "...",
+    "latitude": -29.838888888889,
+    "longitude": -51.143888888889
+  },
+  {
+    "nome": "TECNO IVEPE  MECANICA ",
+    "endereco": "CABO SANTO AGOSTINHO , Pernambuco",
+    "telefone": "55 81 97412697",
+    "email": "...",
+    "latitude": -8.2869444444444,
+    "longitude": -35.035
+  },
+  {
+    "nome": "Rafael- Possoli Cricíuma ",
+    "endereco": "iTAJAI, Santa Catarina",
+    "telefone": "55 48 99963-1094",
+    "email": "...",
+    "latitude": -26.907777777778,
+    "longitude": -48.661944444444
+  },
+  {
+    "nome": "Leandro - Deva BH",
+    "endereco": "Belo Horizonte , Minas Gerais",
+    "telefone": "55 31 9115-9745",
+    "email": "...",
+    "latitude": -19.9280555555556,
+    "longitude": -43.9419444444444
+  },
+  {
+    "nome": "Fofão do Baú",
+    "endereco": "Jaboatão dos Guararapes , Pernambuco",
+    "telefone": "81-31253492",
+    "email": "...",
+    "latitude": -8.1127777777778,
+    "longitude": -35.015
+  },
+  {
+    "nome": "Porto Caminhões e ônibus ",
+    "endereco": "Manaus, Amazonas",
+    "telefone": "92 98437 2788",
+    "email": "...",
+    "latitude": -3.11888888888889,
+    "longitude": -60.0216666666667
+  },
+  {
+    "nome": "Amazon ",
+    "endereco": "Vilhena , Rondônia",
+    "telefone": "69 8162-1888",
+    "email": "...",
+    "latitude": -12.740555555556,
+    "longitude": -60.145833333333
+  },
+  {
+    "nome": "O Dedé",
+    "endereco": "Teresina , Piauí",
+    "telefone": "(86)98120-2834",
+    "email": "...",
+    "latitude": -5.09027777777778,
+    "longitude": -42.8166666666667
+  },
+  {
+    "nome": "Samuca Auto Elétrica ",
+    "endereco": "Cuiabá, Mato Grosso",
+    "telefone": "65 99331-7504",
+    "email": "...",
+    "latitude": -15.595833333333,
+    "longitude": -56.096944444444
+  },
+  {
+    "nome": "BR TRUCK CENTER",
+    "endereco": "BRASILIA, Distrito Federal",
+    "telefone": "61-3533-5555",
+    "email": "...",
+    "latitude": -15.793888888889,
+    "longitude": -47.882777777778
+  },
+  {
+    "nome": "CENTER MARACANAU",
+    "endereco": "ARACAJU, Sergipe",
+    "telefone": "85-985172895",
+    "email": "...",
+    "latitude": -10.9167,
+    "longitude": -37.05
+  },
+  {
+    "nome": "MIGUEL AUTO CENTE JOÃO PESSOA",
+    "endereco": "JOÃO PESSOA, Paraíba",
+    "telefone": "(83) 3224-2575",
+    "email": "...",
+    "latitude": -6.26,
+    "longitude": -38.443888888889
+  },
+  {
+    "nome": "TRUCK RF CASTANHEIRA ",
+    "endereco": "BELEM, Pará",
+    "telefone": "91-400910010",
+    "email": "...",
+    "latitude": -1.4558333333333,
+    "longitude": -48.503888888889
+  },
+  {
+    "nome": "INTER DÍESEL SERVIÇOS AUTOMOTIVOS",
+    "endereco": "PALMAS, Tocantins",
+    "telefone": "63-32144029",
+    "email": "...",
+    "latitude": -10.1886111111111,
+    "longitude": -48.3336111111111
+  },
+  {
+    "nome": "CANAÃ DIESEL",
+    "endereco": "PALMAS, Tocantins",
+    "telefone": "63-33236505",
+    "email": "...",
+    "latitude": -10.1886111111111,
+    "longitude": -48.3336111111111
+  },
+  {
+    "nome": "AUTO MECANICA CASTANHAL",
+    "endereco": "CASTANHAL, Pará",
+    "telefone": "91-985280632",
+    "email": "...",
+    "latitude": -1.2969444444444,
+    "longitude": -47.921944444444
+  },
+  {
+    "nome": "SHALON CAMINHÕES",
+    "endereco": "TERESINA, Piauí",
+    "telefone": "86-988757941",
+    "email": "...",
+    "latitude": -5.09027777777778,
+    "longitude": -42.8166666666667
+  },
+  {
+    "nome": "BH DIESEL CENTER",
+    "endereco": "BRASILIA, Distrito Federal",
+    "telefone": "61-39659372",
+    "email": "...",
+    "latitude": -15.793888888889,
+    "longitude": -47.882777777778
+  },
+  {
+    "nome": "BORRACHARIA MÓVEL BENEDITO",
+    "endereco": "MANAUS, Amazonas",
+    "telefone": "92 99424-8269",
+    "email": "...",
+    "latitude": -3.11888888888889,
+    "longitude": -60.0216666666667
+  },
+  {
+    "nome": "CASA DE BATERIAS ",
+    "endereco": "MANAUS, Amazonas",
+    "telefone": "92 98124-0349",
+    "email": "...",
+    "latitude": -3.11888888888889,
+    "longitude": -60.0216666666667
+  },
+  {
+    "nome": "AUTO TESTE MANUTENÇÃO",
+    "endereco": "RIO DE JANEIRO, Rio de Janeiro",
+    "telefone": "21 99068-6322",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "BORRACHARIA MÓVEL 24HRS",
+    "endereco": "SÃO JOSÉ DOS CAMPOS / JACAREÍ, São Paulo",
+    "telefone": "11 993626998",
+    "email": "...",
+    "latitude": -23.178888888889,
+    "longitude": -45.886944444444
+  },
+  {
+    "nome": "NOVA DIESEL 24HRS ",
+    "endereco": "BAURU, São Paulo",
+    "telefone": "14 3203-6904",
+    "email": "...",
+    "latitude": -22.314722222222,
+    "longitude": -49.060555555556
+  },
+  {
+    "nome": "BORACHARIA MÓVEL F3",
+    "endereco": "RIO DE JANEIRO , Rio de Janeiro",
+    "telefone": "21 97966-1662",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "BORACHARIA MÓVEL F3",
+    "endereco": "RIO DE JANEIRO , Rio de Janeiro",
+    "telefone": "21 99416-4727",
+    "email": "...",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556
+  },
+  {
+    "nome": "BORRACHARIA SIGA BEM",
+    "endereco": "SANTA TERESINHA, Bahia",
+    "telefone": "75 98165-0009",
+    "email": "...",
+    "latitude": -12.771944444444,
+    "longitude": -39.522777777778
+  },
+  {
+    "nome": "AUTO SOCORRO GUINCHOS",
+    "endereco": "BAURU, São Paulo",
+    "telefone": "14 99691-4627  /  14 99794-7409",
+    "email": "...",
+    "latitude": -22.314722222222,
+    "longitude": -49.060555555556
+  },
+  {
+    "nome": "BORRACHARIA IGUAÇU",
+    "endereco": "LACERDA / PONTES, Mato Grosso",
+    "telefone": "65 99909-4380",
+    "email": "...",
+    "latitude": -15.225833333333,
+    "longitude": -59.335
+  },
+  {
+    "nome": "AUTO ELETRICO D. PEDRO I",
+    "endereco": "ESTIVA, Minas Gerais",
+    "telefone": "35 3462-1356",
+    "email": "...",
+    "latitude": -22.462777777778,
+    "longitude": -46.016944444444
+  },
+  {
+    "nome": "SOS 24HRS CORUJÃO",
+    "endereco": "MARILIA , São Paulo",
+    "telefone": "14 99121-9940",
+    "email": "...",
+    "latitude": -22.213888888889,
+    "longitude": -49.945833333333
+  },
+  {
+    "nome": "BORRACHARIA CATARINENSE ",
+    "endereco": "ZONA RURAL / PORTO VELHO, Rondônia",
+    "telefone": "69 99232-3654",
+    "email": "...",
+    "latitude": -23.693888888889,
+    "longitude": -46.565
+  },
+  {
+    "nome": "BORRACHARIA XAXIM",
+    "endereco": "CAMPO GRANDE, Mato Grosso do Sul",
+    "telefone": "67 99114-3002",
+    "email": "...",
+    "latitude": -20.468611111111,
+    "longitude": -54.622222222222
+  },
+  {
+    "nome": "MACÂNICO ZOIN",
+    "endereco": "PARAISO DO TOCANTINS , Tocantins",
+    "telefone": "63 992928995",
+    "email": "...",
+    "latitude": -10.175833333333,
+    "longitude": -48.866944444444
+  },
+  {
+    "nome": "BORRACHARIA MARAJÓ 2",
+    "endereco": "PARAISO DO TOCANTINS , Tocantins",
+    "telefone": "63 99280-2123",
+    "email": "...",
+    "latitude": -10.175833333333,
+    "longitude": -48.866944444444
+  },
+  {
+    "nome": "CASA BATERIAS DISK BATERIAS",
+    "endereco": "VITÓRIA DA CONQUISTA, Bahia",
+    "telefone": "77 4141-5417",
+    "email": "...",
+    "latitude": -14.865833333333,
+    "longitude": -40.838888888889
+  },
+  {
+    "nome": "SOS 24HRS OFICINA SÃO BENTO",
+    "endereco": "MOGI DAS CRUZES , São Paulo",
+    "telefone": "11 94134-0058  /  11 97057-7945",
+    "email": "...",
+    "latitude": -23.522777777778,
+    "longitude": -46.193055555556
+  },
+  {
+    "nome": "BORRACHARIA NETO 24HRS",
+    "endereco": "FLORIANÓPOLIS, Santa Catarina",
+    "telefone": "47 99110-3061",
+    "email": "...",
+    "latitude": -27.593280555556,
+    "longitude": -48.553047222222
+  },
+  {
+    "nome": "CASA DE BATERIAS 24 HORAS CURITIBA - PR",
+    "endereco": "BAIRRO SÍTIO CERCADO - CURITIBA , Paraná",
+    "telefone": "+55 41 8472-5243",
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  },
+  {
+    "nome": "Unidas Aluguel de Carros",
+    "endereco": "BARREIROS, Santa Catarina",
+    "telefone": "48 3211-0898",
+    "email": "...",
+    "latitude": -8.8166666666667,
+    "longitude": -35.2
+  },
+  {
+    "nome": "Localiza Aluguel de Carros",
+    "endereco": "ANNINDEUA, Pará",
+    "telefone": 8009792020,
+    "email": "...",
+    "latitude": -1.3658333333333,
+    "longitude": -48.371944444444
+  },
+  {
+    "nome": "Unidas Aluguel de Carros",
+    "endereco": "BARREIROS , Santa Catarina",
+    "telefone": "48 3211-0898",
+    "email": "...",
+    "latitude": -8.8166666666667,
+    "longitude": -35.2
+  },
+  {
+    "nome": "Movida Aluguel de Carros",
+    "endereco": "BARREIROS , Santa Catarina",
+    "telefone": 8006068686,
+    "email": "...",
+    "latitude": -8.8166666666667,
+    "longitude": -35.2
+  },
+  {
+    "nome": "Bemlocar Locadora de Veículos",
+    "endereco": "BIGAÇU, Santa Catarina",
+    "telefone": "48 32431235",
+    "email": "...",
+    "latitude": -27.493888888889,
+    "longitude": -48.655833333333
+  },
+  {
+    "nome": "Movida aluguel de Carros",
+    "endereco": "BRASILIA , Distrito Federal",
+    "telefone": "61 2323-0310",
+    "email": "...",
+    "latitude": -15.793888888889,
+    "longitude": -47.882777777778
+  },
+  {
+    "nome": "Localiza Aluguel de Carros",
+    "endereco": "BRASILIA , Distrito Federal",
+    "telefone": 8009792020,
+    "email": "...",
+    "latitude": -15.793888888889,
+    "longitude": -47.882777777778
+  },
+  {
+    "nome": "TRANSLOC Aluguel de veículos, vans, ônibus e utilitários.",
+    "endereco": "BRASILIA , Distrito Federal",
+    "telefone": "61 3326-3881",
+    "email": "...",
+    "latitude": -15.793888888889,
+    "longitude": -47.882777777778
+  },
+  {
+    "nome": "Locadora de van furgão | Aluguevan.com",
+    "endereco": "CURITIBA, Paraná",
+    "telefone": "41 99600-6717",
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  },
+  {
+    "nome": "Movida aluguel de Carros",
+    "endereco": "CURITIBA, Paraná",
+    "telefone": 8006068686,
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  },
+  {
+    "nome": "Unidas Aluguel de Carros",
+    "endereco": "CURITIBA, Paraná",
+    "telefone": "41 3411-0585",
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  },
+  {
+    "nome": "Opção Locação de Reboques e Utilitários - Rebouças",
+    "endereco": "CURITIBA, Paraná",
+    "telefone": "41 99627-8388",
+    "email": "...",
+    "latitude": -25.429722222222,
+    "longitude": -49.271944444444
+  }
+]

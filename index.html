@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mapa de Prestadores</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      transition: background-color 0.3s;
+      overflow: hidden;
+    }
+
+    #map {
+      height: 100vh;
+      width: 100%;
+      display: none;
+    }
+
+    #toggle-theme, #export-btn, #toggle-sidebar {
+      position: fixed;
+      top: 15px;
+      z-index: 1000;
+      background-color: #444;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    #toggle-theme { right: 15px; }
+    #export-btn { right: 150px; background-color: #28a745; }
+    #toggle-sidebar { left: 70px; }
+
+    .logo {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    #loading-screen {
+      position: fixed;
+      z-index: 9999;
+      background-color: #121212;
+      color: white;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 24px;
+    }
+
+    .loader {
+      border: 6px solid #2c2c2c;
+      border-top: 6px solid #00ffcc;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .dark .leaflet-popup-content-wrapper {
+      background-color: #2c2c2c;
+      color: #fff;
+    }
+
+    /* Sidebar */
+    #sidebar {
+      position: fixed;
+      top: 0;
+      left: -300px;
+      width: 300px;
+      height: 100%;
+      background-color: #1e1e1e;
+      color: white;
+      padding: 20px;
+      z-index: 1100;
+      overflow-y: auto;
+      transition: left 0.3s ease;
+    }
+
+    #sidebar.open {
+      left: 0;
+    }
+
+    #search {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: none;
+      font-size: 14px;
+    }
+
+    .result {
+      background-color: #333;
+      padding: 10px;
+      margin-bottom: 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .result:hover {
+      background-color: #555;
+    }
+
+    .sidebar-logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.sidebar-logo img {
+  max-width: 55%;
+  height: auto;
+}
+
+#estado-filter {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+}
+  </style>
+</head>
+<body>
+
+<!-- Tela de carregamento -->
+<div id="loading-screen">
+  <div class="loader"></div>
+  Carregando Mapa de Concessionárias...
+</div>
+
+<!-- Botões -->
+<button id="toggle-theme">Alternar Tema</button>
+<button id="export-btn">
+  <img src="logoexcel.png" style="height: 20px; vertical-align: middle; margin-right: 10px;">
+  Exportar para Excel
+</button>
+
+
+<button id="toggle-sidebar">🔍 Pesquisar</button>
+
+<!-- Barra lateral -->
+<div id="sidebar">
+  <div class="sidebar-logo">
+    <img src="Maroni-Transportes.png" alt="Logo da Empresa" />
+  </div>
+  
+  <label for="concessionaria-filter" style="display: block; margin-bottom: 5px;">Tipo de Concessionária:</label>
+  <select id="concessionaria-filter" style="width: 100%; padding: 8px; border-radius: 4px; border: none; font-size: 14px; margin-bottom: 10px;">
+    <option value="">Todas as Concessionárias</option>
+    <option value="IVECO">IVECO</option>
+  </select>
+
+  <select id="estado-filter">
+  <option value="">Todos os Estados</option>
+<option value="Acre">Acre</option>
+<option value="Alagoas">Alagoas</option>
+<option value="Amapá">Amapá</option>
+<option value="Amazonas">Amazonas</option>
+<option value="Bahia">Bahia</option>
+<option value="Ceará">Ceará</option>
+<option value="Distrito Federal">Distrito Federal</option>
+<option value="Espírito Santo">Espírito Santo</option>
+<option value="Goiás">Goiás</option>
+<option value="Maranhão">Maranhão</option>
+<option value="Mato Grosso">Mato Grosso</option>
+<option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+<option value="Minas Gerais">Minas Gerais</option>
+<option value="Pará">Pará</option>
+<option value="Paraíba">Paraíba</option>
+<option value="Paraná">Paraná</option>
+<option value="Pernambuco">Pernambuco</option>
+<option value="Piauí">Piauí</option>
+<option value="Rio de Janeiro">Rio de Janeiro</option>
+<option value="Rio Grande do Norte">Rio Grande do Norte</option>
+<option value="Rio Grande do Sul">Rio Grande do Sul</option>
+<option value="Rondônia">Rondônia</option>
+<option value="Roraima">Roraima</option>
+<option value="Santa Catarina">Santa Catarina</option>
+<option value="São Paulo">São Paulo</option>
+<option value="Sergipe">Sergipe</option>
+<option value="Tocantins">Tocantins</option>
+
+  <!-- Adicione mais estados conforme necessário -->
+</select>
+
+  <input type="text" id="search" placeholder="Buscar concessionária..." />
+  
+  <div style="margin-top: 10px;">
+    <label><input type="checkbox" id="filter-concessionarias" checked> Concessionárias</label><br>
+    <label><input type="checkbox" id="filter-oficinas" checked> Oficinas</label>
+  </div>
+
+  <div id="results-count" style="margin-bottom: 10px; font-size: 14px;"></div>
+  <div id="results" style="max-height: calc(100vh - 300px); overflow-y: auto;"></div>
+</div>
+
+
+<!-- Mapa -->
+<div id="map"></div>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+
+  const blueIcon = new L.Icon.Default();
+
+  const orangeIcon = new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png',
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  });
+
+  setTimeout(() => {
+    document.getElementById('loading-screen').style.display = 'none';
+    document.getElementById('map').style.display = 'block';
+
+    let darkMode = true;
+
+    const darkTile = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap & CartoDB',
+      subdomains: 'abcd',
+      maxZoom: 19
+    });
+
+    const lightTile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    });
+
+    const map = L.map('map', {
+      center: [-14.2350, -51.9253],
+      zoom: 4,
+      layers: [darkTile]
+    });
+
+    L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+    document.body.classList.add("dark");
+
+    const toggleBtn = document.getElementById("toggle-theme");
+    toggleBtn.addEventListener("click", () => {
+      darkMode = !darkMode;
+      if (darkMode) {
+        map.removeLayer(lightTile);
+        map.addLayer(darkTile);
+        document.body.classList.add("dark");
+      } else {
+        map.removeLayer(darkTile);
+        map.addLayer(lightTile);
+        document.body.classList.remove("dark");
+      }
+    });
+
+    // Abrir/Fechar barra lateral
+    const sidebar = document.getElementById("sidebar");
+    document.getElementById("toggle-sidebar").addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+    });
+
+    // Busca dinâmica
+    const searchInput = document.getElementById("search");
+    const resultsDiv = document.getElementById("results");
+    const estadoFilter = document.getElementById("estado-filter");
+
+    // Carregar dados do JSON
+    fetch("concessionarias.json")
+      .then(response => response.json())
+      .then(concessionarias => {
+        const markers = [];
+
+        concessionarias.forEach(conc => {
+          const marker = L.marker([conc.latitude, conc.longitude], { opacity: 0.0 })
+            .addTo(map)
+            .bindPopup(`
+              <strong>${conc.nome}</strong><br>
+              ${conc.endereco}<br>
+              <strong>Tel:</strong> ${conc.telefone}<br>
+              <strong>Email:</strong> ${conc.email}
+            `);
+
+          markers.push({ ...conc, marker });
+
+          let opacity = 0;
+          const fadeIn = setInterval(() => {
+            opacity += 0.1;
+            if (opacity >= 1) {
+              clearInterval(fadeIn);
+              marker.setOpacity(1);
+            } else {
+              marker.setOpacity(opacity);
+            }
+          }, 50);
+        });
+        
+
+        fetch("contatosoficinasofc.json")
+  .then(response => response.json())
+  .then(oficinas => {
+    oficinas.forEach(of => {
+      const marker = L.marker([of.latitude, of.longitude], { icon: orangeIcon, opacity: 0.0 })
+        .addTo(map)
+        .bindPopup(`
+          <strong>${of.nome}</strong><br>
+          ${of.endereco}<br>
+          <strong>Tel:</strong> ${of.telefone}<br>
+          <strong>Email:</strong> ${of.email}
+        `);
+
+      markers.push({ ...of, marker, tipo: "oficina" });
+
+      let opacity = 0;
+      const fadeIn = setInterval(() => {
+        opacity += 0.1;
+        if (opacity >= 1) {
+          clearInterval(fadeIn);
+          marker.setOpacity(1);
+        } else {
+          marker.setOpacity(opacity);
+        }
+      }, 50);
+    });
+
+    document.getElementById("results-count").innerText = `${totalVisiveis} resultado(s) encontrado(s)`;
+
+    filtrarResultados(); // Atualiza a lista após carregar oficinas
+  });
+
+        // Exportar para Excel
+        // Exportar dados filtrados para Excel
+        document.getElementById("export-btn").addEventListener("click", () => {
+          const dadosFiltrados = markers.filter(m => map.hasLayer(m.marker));
+          const ws_data = [
+            ["Nome", "Endereço", "Telefone", "Email", "Latitude", "Longitude"],
+            ...dadosFiltrados.map(c => [
+              c.nome, c.endereco, c.telefone, c.email, c.latitude, c.longitude
+            ])
+          ];
+          const wb = XLSX.utils.book_new();
+          const ws = XLSX.utils.aoa_to_sheet(ws_data);
+          XLSX.utils.book_append_sheet(wb, ws, "PrestadoresFiltrados");
+          XLSX.writeFile(wb, "prestadores_filtrados.xlsx");
+        });
+
+        // Filtrar resultados
+        
+        function filtrarResultados() {
+          const query = searchInput.value.toLowerCase();
+          const estadoSelecionado = estadoFilter.value;
+          const showConcessionarias = document.getElementById("filter-concessionarias").checked;
+          const showOficinas = document.getElementById("filter-oficinas").checked;
+          const tipoConcessionariaSelecionada = document.getElementById("concessionaria-filter")?.value.toLowerCase() ?? "";
+
+          resultsDiv.innerHTML = "";
+          let totalVisiveis = 0;
+
+          markers.forEach(m => {
+            const tipo = m.tipo || "concessionaria";
+            const atendeTipo = (tipo === "oficina" && showOficinas) || (tipo === "concessionaria" && showConcessionarias);
+
+            const termosBusca = query.split(" ").filter(p => p.trim() !== "");
+            const atendeTexto = termosBusca.every(palavra =>
+              (m.nome?.toLowerCase().includes(palavra) ||
+               m.endereco?.toLowerCase().includes(palavra) ||
+               m.telefone?.toLowerCase().includes(palavra) ||
+               m.email?.toLowerCase().includes(palavra) ||
+               m.cidade?.toLowerCase().includes(palavra) ||
+               m.estado?.toLowerCase().includes(palavra))
+            );
+
+            const atendeEstado = estadoSelecionado === "" || (m.estado && m.estado.toLowerCase() === estadoSelecionado.toLowerCase()) || (m.endereco && m.endereco.toLowerCase().includes(estadoSelecionado.toLowerCase()));
+
+            const atendeMarca = tipo !== "concessionaria" || tipoConcessionariaSelecionada === "" || (m.marca && m.marca.toLowerCase().includes(tipoConcessionariaSelecionada));
+            const mostrar = atendeTexto && atendeEstado && atendeTipo && atendeMarca;
+            
+
+            if (mostrar) {
+              m.marker.addTo(map);
+              const div = document.createElement("div");
+              div.className = "result";
+              div.innerHTML = `<strong>${m.nome}</strong><br>${m.endereco}`;
+              div.addEventListener("click", () => {
+                map.setView([m.latitude, m.longitude], 16);
+                m.marker.openPopup();
+              });
+              resultsDiv.appendChild(div);
+              totalVisiveis++;
+            } else {
+              map.removeLayer(m.marker);
+            }
+          });
+        }
+        // Eventos para busca dinâmica
+
+        document.getElementById("filter-concessionarias").addEventListener("change", filtrarResultados);
+        document.getElementById("filter-oficinas").addEventListener("change", filtrarResultados);
+
+        searchInput.addEventListener("input", filtrarResultados);
+        estadoFilter.addEventListener("change", filtrarResultados);
+        document.getElementById("concessionaria-filter").addEventListener("change", filtrarResultados);
+
+      })
+      .catch(error => {
+        console.error("Erro ao carregar o JSON:", error);
+      });
+
+  }, 1000);
+</script>
+
+
+</body>
+</html>

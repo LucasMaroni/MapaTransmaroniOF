@@ -1,0 +1,738 @@
+[
+  {
+    "nome": "IVECO | MATTANA",
+    "endereco": "Canoas, Rio Grande do Sul  ",
+    "telefone": "051 997854015",
+    "email": "paulo.tavares@mattanaveiculos.com.br",
+    "latitude": -29.92,
+    "longitude": -51.18
+  },
+  {
+    "nome": "IVECO | MATTANA",
+    "endereco": "Canoas, Rio Grande do Sul  ",
+    "telefone": "051 991174386",
+    "email": "ronaldo.dalpont@mattanaveiculos.com.br",
+    "latitude": -29.92,
+    "longitude": -51.18
+  },
+  {
+    "nome": "IVECO | MATTANA",
+    "endereco": "Caxias do Sul, Rio Grande do Sul  ",
+    "telefone": "051 991193838",
+    "email": "cassiano.tondo@mattanaveiculos.com.br",
+    "latitude": -29.1678,
+    "longitude": -51.1789
+  },
+  {
+    "nome": "IVECO | HIDRAUCÂMBIO",
+    "endereco": "Lajeado, Rio Grande do Sul  ",
+    "telefone": "051 99964991",
+    "email": "oficina@hclajeado.com.br",
+    "latitude": -29.4669,
+    "longitude": -51.9608
+  },
+  {
+    "nome": "IVECO | MECÂNICA SUL DIESEL",
+    "endereco": "Santa Maria, Rio Grande do Sul  ",
+    "telefone": "055 992211793",
+    "email": "vendas@mecanicasuldiesel.com.br",
+    "latitude": -29.6839,
+    "longitude": -53.8069
+  },
+  {
+    "nome": "IVECO | CARBONI",
+    "endereco": "Passo Fundo, Rio Grande do Sul  ",
+    "telefone": "...",
+    "email": "valmor.garcia@grupocarboni.com.br",
+    "latitude": -28.2628,
+    "longitude": -52.4069
+  },
+  {
+    "nome": "IVECO | POSSOLI",
+    "endereco": "Cascavel, Santa Catarina  ",
+    "telefone": "045-991517151",
+    "email": "gerenteposvenda@possoli.com.br",
+    "latitude": -24.9558,
+    "longitude": -53.455
+  },
+  {
+    "nome": "IVECO | POSSOLI",
+    "endereco": "Vitorino, Santa Catarina  ",
+    "telefone": "046 991220681",
+    "email": "possoli.filial@possoli.com.br",
+    "latitude": -26.2769,
+    "longitude": -52.7839
+  },
+  {
+    "nome": "IVECO | POSSOLI",
+    "endereco": "Criciúma, Santa Catarina  ",
+    "telefone": "048 999631094",
+    "email": "gerenteposvenda.filial2@possoli.com.br",
+    "latitude": -28.6775,
+    "longitude": -49.3697
+  },
+  {
+    "nome": "IVECO | CARBONI",
+    "endereco": "Itajaí, Santa Catarina  ",
+    "telefone": "047 992682086",
+    "email": "emanoel.pianca@grupocarboni.com.br",
+    "latitude": -26.9078,
+    "longitude": -48.6619
+  },
+  {
+    "nome": "IVECO | CARBONI",
+    "endereco": "Itajaí, Santa Catarina  ",
+    "telefone": "47 99983-9401",
+    "email": "heriton.ribeiro@grupocarboni.com.br",
+    "latitude": -26.9078,
+    "longitude": -48.6619
+  },
+  {
+    "nome": "IVECO | CARBONI",
+    "endereco": "Videira, Santa Catarina  ",
+    "telefone": "49 98806-1726",
+    "email": "airton.fantinel@grupocarboni.com.br",
+    "latitude": -27.0078,
+    "longitude": -51.1519
+  },
+  {
+    "nome": "IVECO | CARBONI",
+    "endereco": "Chapecó, Santa Catarina  ",
+    "telefone": "49 98826-8110",
+    "email": "joelse.bernardi@grupocarboni.com.br",
+    "latitude": -27.0958,
+    "longitude": -52.6178
+  },
+  {
+    "nome": "IVECO | CARBONI",
+    "endereco": "Concórdia, Santa Catarina  ",
+    "telefone": "49 99186-9839",
+    "email": "paulo.araujo@grupocarboni.com.br",
+    "latitude": -27.2339,
+    "longitude": -52.0278
+  },
+  {
+    "nome": "IVECO | CARBONI",
+    "endereco": "Joinville, Santa Catarina  ",
+    "telefone": "47 99264-4052",
+    "email": "josmar.piolla@grupocarboni.com.br",
+    "latitude": -26.3039,
+    "longitude": -48.8458
+  },
+  {
+    "nome": "IVECO | CARBONI",
+    "endereco": "Palhoça, Santa Catarina  ",
+    "telefone": "48 99624-5809",
+    "email": "rovane.balbino@grupocarboni.com.br",
+    "latitude": -27.6444,
+    "longitude": -48.6678
+  },
+  {
+    "nome": "IVECO | CARBONI",
+    "endereco": "Rio do Sul, Santa Catarina  ",
+    "telefone": "47 99929-5771",
+    "email": "Carlos.cotrim@grupocarboni.com.br",
+    "latitude": -27.2139,
+    "longitude": -49.6428
+  },
+  {
+    "nome": "IVECO | FLORENÇA",
+    "endereco": "Curitiba, Paraná  ",
+    "telefone": "041 988466685",
+    "email": "edson.gnap@florenca.com.br",
+    "latitude": -25.4297,
+    "longitude": -49.2719
+  },
+  {
+    "nome": "IVECO | CIA VERDE",
+    "endereco": "Ponta Grossa, Paraná  ",
+    "telefone": "011 95652-8272",
+    "email": "luiz.marcondes@ciaverdecaminhoes.com.br",
+    "latitude": -25.095,
+    "longitude": -50.1619
+  },
+  {
+    "nome": "IVECO | CIA VERDE",
+    "endereco": "Guarapuava, Paraná  ",
+    "telefone": "011 95652-8272",
+    "email": "luiz.marcondes@ciaverdecaminhoes.com.br",
+    "latitude": -25.395,
+    "longitude": -51.4578
+  },
+  {
+    "nome": "IVECO | TURIM",
+    "endereco": "Maringá, Paraná  ",
+    "telefone": "044 999773267",
+    "email": "mario.tamaoki@turimdiesel.com.br",
+    "latitude": -23.425,
+    "longitude": -51.9389
+  },
+  {
+    "nome": "IVECO | TURIM",
+    "endereco": "Maringá, Paraná  ",
+    "telefone": "0 44 9947-7468",
+    "email": "emerson.santos@turimdiesel.com.br",
+    "latitude": -23.425,
+    "longitude": -51.9389
+  },
+  {
+    "nome": "IVECO | TURIM",
+    "endereco": "Paranavaí, Paraná  ",
+    "telefone": "044 9 9961-8745",
+    "email": "lucas.gomer@turimdiesel.com.br",
+    "latitude": -23.0728,
+    "longitude": -52.465
+  },
+  {
+    "nome": "IVECO | TURIM",
+    "endereco": "Cambé, Paraná  ",
+    "telefone": "043 991115797",
+    "email": "eziquiel.matos@turimdiesel.com.br",
+    "latitude": -23.2758,
+    "longitude": -51.2778
+  },
+  {
+    "nome": "IVECO | COFIPE",
+    "endereco": "São Paulo, São Paulo  ",
+    "telefone": "011 992026096",
+    "email": "tarso.rut@cofipe.com.br",
+    "latitude": -23.5504,
+    "longitude": -46.6339
+  },
+  {
+    "nome": "IVECO | COFIPE",
+    "endereco": "Santos, São Paulo  ",
+    "telefone": "013 981283793",
+    "email": "janderson.resende@cofipe.com.br",
+    "latitude": -23.9608,
+    "longitude": -46.3339
+  },
+  {
+    "nome": "IVECO | COFIPE",
+    "endereco": "Guarulhos, São Paulo  ",
+    "telefone": "011 992325434",
+    "email": "marcelo.silva@cofipe.com.br ",
+    "latitude": -23.4667,
+    "longitude": -46.5333
+  },
+  {
+    "nome": "IVECO | COFIPE",
+    "endereco": "S.Bernardo Campo, São Paulo  ",
+    "telefone": "011 992437719",
+    "email": "marcos.marcelo@cofipe.com.br",
+    "latitude": -23.6939,
+    "longitude": -46.565
+  },
+  {
+    "nome": "IVECO | MERCALF",
+    "endereco": "Sumaré, São Paulo  ",
+    "telefone": "019 998608405",
+    "email": "celso@mercalf.com.br",
+    "latitude": -22.8219,
+    "longitude": -47.2669
+  },
+  {
+    "nome": "IVECO | MERCALF",
+    "endereco": "Jundiaí, São Paulo  ",
+    "telefone": "011 957780095",
+    "email": "luiz.lopes@mercalf.com.br",
+    "latitude": -23.1864,
+    "longitude": -46.8842
+  },
+  {
+    "nome": "IVECO | MERCALF",
+    "endereco": "Piracicaba, São Paulo  ",
+    "telefone": "019 998291587",
+    "email": "marcos@mercalf.com.br",
+    "latitude": -22.7252,
+    "longitude": -47.6493
+  },
+  {
+    "nome": "IVECO | MERCALF",
+    "endereco": "Sorocaba, São Paulo  ",
+    "telefone": "019 996892358",
+    "email": "supervisorposvenda.sorocaba@mercalf.com.br",
+    "latitude": -23.5019,
+    "longitude": -47.4578
+  },
+  {
+    "nome": "IVECO | RODONAVES",
+    "endereco": "Caçapava, São Paulo  ",
+    "telefone": "012 991628101",
+    "email": "danilo.goncalves@rodonavesiveco.com.br",
+    "latitude": -23.1008,
+    "longitude": -45.7069
+  },
+  {
+    "nome": "IVECO | RODONAVES",
+    "endereco": "Campinas, São Paulo  ",
+    "telefone": "021 997040930",
+    "email": "danilo.goncalves@rodonavesiveco.com.br",
+    "latitude": -22.9009,
+    "longitude": -47.0573
+  },
+  {
+    "nome": "IVECO | RODONAVES",
+    "endereco": "Bauru, São Paulo  ",
+    "telefone": "014 991391704",
+    "email": "fabio.fernandes@rodonavesiveco.com.br",
+    "latitude": -22.3147,
+    "longitude": -49.0606
+  },
+  {
+    "nome": "IVECO | RODONAVES",
+    "endereco": "São josé do rio preto, São Paulo  ",
+    "telefone": "017 992773996",
+    "email": "jefferson.angeli@rodonavesiveco.com.br",
+    "latitude": -20.82,
+    "longitude": -49.3789
+  },
+  {
+    "nome": "IVECO | RODONAVES",
+    "endereco": "Regente Feijó, São Paulo  ",
+    "telefone": "018 974002159",
+    "email": "marcos.santos@rodonavesiveco.com.br",
+    "latitude": -22.2208,
+    "longitude": -51.3028
+  },
+  {
+    "nome": "IVECO | RODONAVES",
+    "endereco": "Ribeirão Preto, São Paulo  ",
+    "telefone": "016 991919615",
+    "email": "edina.ravanhani@rodonavesiveco.com.br",
+    "latitude": -21.1776,
+    "longitude": -47.8101
+  },
+  {
+    "nome": "IVECO | DEVA",
+    "endereco": "Betim, Minas Gerais  ",
+    "telefone": "031 996136900",
+    "email": "alipio.coelho@deva.com.br",
+    "latitude": -19.9678,
+    "longitude": -44.1978
+  },
+  {
+    "nome": "IVECO | DEVA",
+    "endereco": "Betim, Minas Gerais  ",
+    "telefone": "031 984306781",
+    "email": "helvecio.marques@deva.com.br",
+    "latitude": -19.9678,
+    "longitude": -44.1978
+  },
+  {
+    "nome": "IVECO | DEVA",
+    "endereco": "Belo Horizonte, Minas Gerais  ",
+    "telefone": "031 992290075",
+    "email": "leandro.camargos@deva.com.br",
+    "latitude": -19.9281,
+    "longitude": -43.9419
+  },
+  {
+    "nome": "IVECO | DEVA",
+    "endereco": "Pouso Alegre, Minas Gerais  ",
+    "telefone": "035 999646719",
+    "email": "marcelo.faria@deva.com.br",
+    "latitude": -22.2281,
+    "longitude": -45.9336
+  },
+  {
+    "nome": "IVECO | DEVA",
+    "endereco": "Montes Claros, Minas Gerais  ",
+    "telefone": "038 984165009",
+    "email": "fredson.santos@deva.com.br",
+    "latitude": -16.7322,
+    "longitude": -43.8636
+  },
+  {
+    "nome": "IVECO | DEVA",
+    "endereco": "Juiz de Fora, Minas Gerais  ",
+    "telefone": "065 996939743",
+    "email": "mauricio.nakatsugi@deva.com.br",
+    "latitude": -21.75,
+    "longitude": -43.35
+  },
+  {
+    "nome": "IVECO | DEVA",
+    "endereco": "Divinópolis, Minas Gerais  ",
+    "telefone": "031 995131908",
+    "email": "marcelo.resende@deva.com.br",
+    "latitude": -20.1389,
+    "longitude": -44.8839
+  },
+  {
+    "nome": "IVECO | MARQUES DIESEL",
+    "endereco": "Patos de Minas, Minas Gerais  ",
+    "telefone": "034 999306938",
+    "email": "danilo@grupomdi.com.br",
+    "latitude": -18.5871,
+    "longitude": -46.5149
+  },
+  {
+    "nome": "IVECO | TURBOKIT",
+    "endereco": "Governador Valadares, Minas Gerais  ",
+    "telefone": "033 988518197",
+    "email": "marcos@turbokit.com.br",
+    "latitude": -18.8508,
+    "longitude": -41.9489
+  },
+  {
+    "nome": "IVECO | CURINGA",
+    "endereco": "Uberlândia, Minas Gerais  ",
+    "telefone": "034 997292395",
+    "email": "eneias@curingaiveco.com.br",
+    "latitude": -18.9189,
+    "longitude": -48.2769
+  },
+  {
+    "nome": "IVECO | BELLUNO",
+    "endereco": "Rio de Janeiro, Rio de Janeiro  ",
+    "telefone": "021 984902061",
+    "email": "gerpv@bellunoveiculos.com.br",
+    "latitude": -22.9111,
+    "longitude": -43.2056
+  },
+  {
+    "nome": "IVECO | TRANSFUTURO",
+    "endereco": "Nova Iguaçu, Rio de Janeiro  ",
+    "telefone": "024 981590004",
+    "email": "jordana@transfuturoveiculos.com.br",
+    "latitude": -22.7589,
+    "longitude": -43.4508
+  },
+  {
+    "nome": "IVECO | TRANSFUTURO",
+    "endereco": "Nova Iguaçu, Rio de Janeiro  ",
+    "telefone": "024 981593180",
+    "email": "gerpv@bellunoveiculos.com.br",
+    "latitude": -22.7589,
+    "longitude": -43.4508
+  },
+  {
+    "nome": "IVECO | TRANSFUTURO",
+    "endereco": "Barra Mansa, Rio de Janeiro  ",
+    "telefone": "024 974036643",
+    "email": "bentogerentedeposvendas@transfuturoveiculos.com.br",
+    "latitude": -22.5439,
+    "longitude": -44.1708
+  },
+  {
+    "nome": "IVECO | TRANSFUTURO",
+    "endereco": "Itaboraí, Rio de Janeiro  ",
+    "telefone": " 024 981724911",
+    "email": "gerenteposvendasit@transfuturoveiculos.com.br",
+    "latitude": -22.7475,
+    "longitude": -42.8558
+  },
+  {
+    "nome": "IVECO | AUTOVIVA",
+    "endereco": "Cariacica, Espírito Santo  ",
+    "telefone": "027 999424208",
+    "email": "fabricio.curtius@ivecoautoviva.com.br",
+    "latitude": -20.2639,
+    "longitude": -40.42
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Goiânia, Goiás  ",
+    "telefone": "062 996978186",
+    "email": "everton.carboni@covezi.com.br",
+    "latitude": -16.6806,
+    "longitude": -49.2564
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Aparecida Goiânia, Goiás  ",
+    "telefone": "062 996978186",
+    "email": "everton.carboni@covezi.com.br",
+    "latitude": -16.8219,
+    "longitude": -49.0
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Rio Verde, Goiás  ",
+    "telefone": "64 992623819",
+    "email": "Aline.mendes@covezi.com.br",
+    "latitude": -17.7978,
+    "longitude": -50.9278
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Gurupi, Tocantins  ",
+    "telefone": "049 988646062",
+    "email": "tiago.pagnussat@covezi.com.br",
+    "latitude": -11.7289,
+    "longitude": -49.0689
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Palmas, Tocantins  ",
+    "telefone": "049 988646062",
+    "email": "tiago.pagnussat@covezi.com.br",
+    "latitude": -10.1886,
+    "longitude": -48.3336
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Araguaína, Tocantins  ",
+    "telefone": "063 981169595",
+    "email": "sergio.canesso@covezi.com.br",
+    "latitude": -7.1908,
+    "longitude": -48.2069
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Anápolis, Goiás  ",
+    "telefone": "63 981435446",
+    "email": "consultor.an@covezi.com.br",
+    "latitude": -16.3269,
+    "longitude": -48.9528
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Brasília, Distrito Federal  ",
+    "telefone": "61 981896191",
+    "email": "posvenda.bsb@covezi.com.br",
+    "latitude": -15.7939,
+    "longitude": -47.8828
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Luziânia, Distrito Federal  ",
+    "telefone": "61 981898890",
+    "email": "supervisor.bsb@covezi.com.br",
+    "latitude": -16.2528,
+    "longitude": -47.95
+  },
+  {
+    "nome": "IVECO | TORINO",
+    "endereco": "Várzea Grande, Mato Grosso  ",
+    "telefone": "065 999829743",
+    "email": "cesar.nielsen@torinoveiculos.com.br",
+    "latitude": -15.6469,
+    "longitude": -56.1328
+  },
+  {
+    "nome": "IVECO | TORINO",
+    "endereco": "Rondonópolis, Mato Grosso  ",
+    "telefone": "066 999844583",
+    "email": "gilvan@torinoveiculos.com.br",
+    "latitude": -16.4708,
+    "longitude": -54.6358
+  },
+  {
+    "nome": "IVECO | TORINO",
+    "endereco": "Sinop, Mato Grosso  ",
+    "telefone": "066 999950193",
+    "email": "gedson.matos@torinoveiculos.com.br",
+    "latitude": -11.8639,
+    "longitude": -55.5039
+  },
+  {
+    "nome": "IVECO | TORINO",
+    "endereco": "Campo Grande, Mato Grosso do Sul  ",
+    "telefone": "067 999639860",
+    "email": "pedro.moura@torinoveiculos.com.br",
+    "latitude": -20.4686,
+    "longitude": -54.6222
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Vilhena, Rondônia  ",
+    "telefone": "69 993652653",
+    "email": "oficina.ro@covezi.com.br",
+    "latitude": -12.7406,
+    "longitude": -60.1458
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Porto Velho, Rondônia  ",
+    "telefone": "69 993652653",
+    "email": "oficina.ro@covezi.com.br",
+    "latitude": -8.7619,
+    "longitude": -63.9039
+  },
+  {
+    "nome": "IVECO | GALLOTTI",
+    "endereco": "Salvador, Bahia  ",
+    "telefone": "071 996848873",
+    "email": "willian.felipe@gallottitrucks.com.br",
+    "latitude": -12.9831,
+    "longitude": -38.4928
+  },
+  {
+    "nome": "IVECO | GALLOTTI",
+    "endereco": "Salvador, Bahia  ",
+    "telefone": "071 993000565",
+    "email": "nara.schumann@gallottitrucks.com.br",
+    "latitude": -12.9831,
+    "longitude": -38.4928
+  },
+  {
+    "nome": "IVECO | GALLOTTI",
+    "endereco": "Vitória da Conquista, Bahia  ",
+    "telefone": "075 992637941",
+    "email": "joao.oliveira@gallottitrucks.com.br",
+    "latitude": -14.8658,
+    "longitude": -40.8389
+  },
+  {
+    "nome": "IVECO | GALLOTTI",
+    "endereco": "Feira de Santana, Bahia  ",
+    "telefone": "075 999615336",
+    "email": "jean.dantas@gallottitrucks.com.br",
+    "latitude": -12.2669,
+    "longitude": -38.9669
+  },
+  {
+    "nome": "IVECO | GALLOTTI",
+    "endereco": "Juazeiro, Bahia  ",
+    "telefone": "074 998105689  ",
+    "email": "cristiano.martins@gallottitrucks.com.br",
+    "latitude": -9.4139,
+    "longitude": -40.5028
+  },
+  {
+    "nome": "IVECO | TRASMIMO",
+    "endereco": "Luiz E. Magalhães, Bahia  ",
+    "telefone": "077 988175614",
+    "email": "adailton.costa@rodomimo.com.br",
+    "latitude": -12.0919,
+    "longitude": -45.805
+  },
+  {
+    "nome": "IVECO | GALLOTTI",
+    "endereco": "Jaboatão dos Guararapes, Pernambuco  ",
+    "telefone": "081 9982307660",
+    "email": "eduardo.andrade@gallottitrucks.com.br",
+    "latitude": -8.1128,
+    "longitude": -35.015
+  },
+  {
+    "nome": "IVECO | GALLOTTI",
+    "endereco": "Caruaru, Pernambuco  ",
+    "telefone": "079 996376114",
+    "email": "wilton.martins@gallottitrucks.com.br",
+    "latitude": -8.2828,
+    "longitude": -35.9758
+  },
+  {
+    "nome": "IVECO | SERVEL",
+    "endereco": "Aracaju, Sergipe  ",
+    "telefone": "079 999775438",
+    "email": "eduesley.cruz@servel.com.br",
+    "latitude": -10.9167,
+    "longitude": -37.05
+  },
+  {
+    "nome": "IVECO | AUDAX",
+    "endereco": "Maceió, Alagoas  ",
+    "telefone": "082 998304380",
+    "email": "luis.aca@audaxcaminhoes.com.br",
+    "latitude": -9.6658,
+    "longitude": -35.735
+  },
+  {
+    "nome": "IVECO | AUDAX",
+    "endereco": "Arapiraca, Alagoas  ",
+    "telefone": "082 998304380",
+    "email": "luis.aca@audaxcaminhoes.com.br",
+    "latitude": -9.75,
+    "longitude": -36.65
+  },
+  {
+    "nome": "IVECO | MAIS TRUCK",
+    "endereco": "João Pessoa, Paraíba  ",
+    "telefone": "083 991030433",
+    "email": "sillasdantas@maisiveco.com.br",
+    "latitude": -6.26,
+    "longitude": -38.4439
+  },
+  {
+    "nome": "IVECO | AUDAX",
+    "endereco": "Natal, Rio Grande do Norte  ",
+    "telefone": "084 991808810",
+    "email": "andre.mip@audaxcaminhoes.com.br",
+    "latitude": -5.795,
+    "longitude": -35.2089
+  },
+  {
+    "nome": "IVECO | AUDAX",
+    "endereco": "Fortaleza, Ceará  ",
+    "telefone": "084 991808810",
+    "email": "andre.mip@audaxcaminhoes.com.br",
+    "latitude": -3.7275,
+    "longitude": -38.5275
+  },
+  {
+    "nome": "IVECO | AUDAX",
+    "endereco": "Juazeiro do Norte, Ceará  ",
+    "telefone": "084 991808810",
+    "email": "andre.mip@audaxcaminhoes.com.br",
+    "latitude": -7.2128,
+    "longitude": -39.315
+  },
+  {
+    "nome": "IVECO | JELTA",
+    "endereco": "Terezina, Piauí  ",
+    "telefone": "086 981958901",
+    "email": "posvenda@jeltatruck.com.br",
+    "latitude": -5.0903,
+    "longitude": -42.8167
+  },
+  {
+    "nome": "IVECO | DUVEL",
+    "endereco": "São Luís, Maranhão  ",
+    "telefone": "098 991144863",
+    "email": "brunocarvalho@duvel.com.br",
+    "latitude": -2.53,
+    "longitude": -44.3028
+  },
+  {
+    "nome": "IVECO | DUVEL",
+    "endereco": "Imperatriz, Maranhão  ",
+    "telefone": "098 991282032",
+    "email": "venilson@duvel.com.br",
+    "latitude": -5.5258,
+    "longitude": -47.4758
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Belém, Pará  ",
+    "telefone": "91 982444446",
+    "email": "...",
+    "latitude": -1.4558,
+    "longitude": -48.5039
+  },
+  {
+    "nome": "IVECO | COVEZI",
+    "endereco": "Macapá, Amapá  ",
+    "telefone": "91 982444446",
+    "email": "...",
+    "latitude": 0.033,
+    "longitude": -51.0653
+  },
+  {
+    "nome": "IVECO | PORTO",
+    "endereco": "Manaus, Amazonas  ",
+    "telefone": "092 981920443",
+    "email": "...",
+    "latitude": -3.1189,
+    "longitude": -60.0217
+  },
+  {
+    "nome": "IVECO | PORTO",
+    "endereco": "Boa Vista, Roraima  ",
+    "telefone": "092 981920443",
+    "email": "...",
+    "latitude": 2.82,
+    "longitude": -60.6719
+  },
+  {
+    "nome": "IVECO | GIORDANI",
+    "endereco": "Rio Branco, Acre",
+    "telefone": "068 999520407",
+    "email": "...",
+    "latitude": -9.9781,
+    "longitude": -67.8117
+  }
+]
