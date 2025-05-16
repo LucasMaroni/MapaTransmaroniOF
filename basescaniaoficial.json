@@ -1,0 +1,938 @@
+[
+  {
+    "nome": "Rota Oeste Veículos LTDA",
+    "endereco": "Entroncamento Rodovia BR - 158 com a MT 240,S/N, Bairro Industrial V , 78635000, Água Boa",
+    "telefone": "+55(066)21036503",
+    "latitude": -14.05,
+    "longitude": -52.158888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Varella Veículos Pesados Ltda",
+    "endereco": "Rodovia BR 153, Km 509,6 - Lote 001 A - Jd. Paraíso, CEP: 74984-431, Aparecida de Goiânia",
+    "telefone": "+55(62)40064000",
+    "latitude": -16.821944444444,
+    "longitude": -49.245,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Quinta Roda)",
+    "endereco": "Rua Marcos Toquetão, nº50 B - Bairro Jussara, CEP: 16021-345, Araçatuba",
+    "telefone": "+55(18)36311010",
+    "latitude": -21.208888888889,
+    "longitude": -50.432777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "MCM Comércio de Caminhões e Ônibus Ltda",
+    "endereco": "Av.Bernardo Sayão,n° 2094 (Rod. BR153, Km142,8), CEP: 77800-000, Araguaina",
+    "telefone": "+55(63)34213433",
+    "latitude": -7.1908333333333,
+    "longitude": -48.206944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Escandinavia Veículos Ltda",
+    "endereco": "Av. Tarraf, nº1086 (Rod. Washington Luís, Km 269), CEP: 14808-095, Araraquara",
+    "telefone": "+55(16)33011000",
+    "latitude": -21.793888888889,
+    "longitude": -48.175833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "P. B. Lopes & Cia Ltda",
+    "endereco": "Rodovia Castelo Branco, KM 247, SN, Zona Rural, 18705050, Avaré",
+    "telefone": "+5514991617510",
+    "latitude": -23.098888888889,
+    "longitude": -48.925833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Mecânica de Veículos Piçarras Ltda",
+    "endereco": "Rod. BR 101, Km 101 - Bairro Santo Antônio, CEP: 88380-000, Balneário Piçarras",
+    "telefone": "+55(47)32677200",
+    "latitude": -26.75,
+    "longitude": -48.666666666667,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part. e Com. de Máq. e Veículos S.A. (WLM Equipo)",
+    "endereco": "Rod. Presidente Dutra, Km 265,5 - B. Loteamento Boa Vista , CEP: 27332-000, Barra Mansa",
+    "telefone": "+55(24)33483332",
+    "latitude": -22.543888888889,
+    "longitude": -44.170833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos Ltda",
+    "endereco": "Movesa Motores e Veículos LTDA. - Av. Barão do Rio Branco, 5981 - Sitio 2000 - Bairro Barreiras ll, Barreiras - BA, 47814-554",
+    "telefone": "+55(77)36114361",
+    "latitude": -12.152777777778,
+    "longitude": -44.99,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Quinta Roda)",
+    "endereco": "Av. Inácio Conceição Vieira, nº 11-55 - B. Jardim Mary, CEP: 17048-021, Bauru",
+    "telefone": "+55(14)21093150",
+    "latitude": -22.314722222222,
+    "longitude": -49.060555555556,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda. (Cavese)",
+    "endereco": "Rua Cecília Maria José Azevedo nº 1400 - Bairro Morro da Bina, CEP: 88160-000, Biguaçu",
+    "telefone": "+55 (48) 32797500",
+    "latitude": -27.493888888889,
+    "longitude": -48.655833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Varella Veículos Pesados Ltda",
+    "endereco": "Rod. BR 40/ 50, Km 2,2 - Santa Maria, CEP: 72549-650, Brasília",
+    "telefone": "+55(61)21045000",
+    "latitude": -15.793888888889,
+    "longitude": -47.882777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda",
+    "endereco": "Av. Dr. Rosalvo de Almeida Telles, nº 700 - Res. Nova Caçapava, CEP: 12283-020, Caçapava",
+    "telefone": "+55(12)36531611",
+    "latitude": -23.100833333333,
+    "longitude": -45.706944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos Ltda",
+    "endereco": "Av. Dep. Raimundo Asfora, nº1690 - B. Velame, CEP: 58420-000, Campina Grande",
+    "telefone": "+55(83)21029100",
+    "latitude": -7.2305555555556,
+    "longitude": -35.881111111111,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "P. B. Lopes & Cia Ltda",
+    "endereco": "Rua Elza da Silva Gatass, 48 - Bairro: Polo Empresarial, CEP: 79018-805, Campo Grande",
+    "telefone": "+55(67)33265080",
+    "latitude": -20.468611111111,
+    "longitude": -54.622222222222,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Rovema Veículos e Máquinas Ltda",
+    "endereco": "Rod. BR 364, S/N - KM 691 - Box 03 - Zona Rural , CEP: 76860-000, Candeias do Jamari",
+    "telefone": "+55(69)996054288",
+    "latitude": -8.80972222,
+    "longitude": -63.69555556,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Cotrasa Veículos e Serviços LTDA",
+    "endereco": "Cotrasa São José dos Pinhais - Concessionária Scania - Alameda Bom Pastor, 2094 - Ouro Fino, São José dos Pinhais - PR, 83015-140",
+    "telefone": "+55 (45) 3333 2300",
+    "latitude": -25.535,
+    "longitude": -49.205833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Brasdiesel S.A. Comercial e Importadora",
+    "endereco": "Rod. RSC - 453, nº 34575, Km 78 - Nossa Senhora da Saúde, CEP: 95032-898, Caxias do Sul",
+    "telefone": "+55(54)32380900",
+    "latitude": -29.167777777778,
+    "longitude": -51.178888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda. (Cavese)",
+    "endereco": "Rodovia BR 153, Km 95 - Área Industrial, 89713120, Concordia",
+    "telefone": "+55(49)39045000",
+    "latitude": -27.233888888889,
+    "longitude": -52.027777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Itaipu)",
+    "endereco": "Itaipu Scania - Contagem - BR-381, Rod. Fernão Dias, 4000 - Riacho das Pedras, Contagem - MG, 32280-680",
+    "telefone": "+55(31)33991000",
+    "latitude": -19.931944444444,
+    "longitude": -44.053888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda. (Cavese)",
+    "endereco": "Rodovia BR 282, Km 531, CEP: 89819-000, Cordilheira Alta",
+    "telefone": "+55(49)33586100",
+    "latitude": -26.983888888889,
+    "longitude": -52.606944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Rota Oeste Veículos Ltda",
+    "endereco": "Av. Ayrton Senna da Silva S/Nº - KM 397, Jardim Industriário, CEP: 78099-499, Cuiabá",
+    "telefone": "+55(65)36115000",
+    "latitude": -15.595833333333,
+    "longitude": -56.096944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "P. B. Lopes & Cia Ltda",
+    "endereco": "P. B. Lopes | Scania - Rua Marginal Leste, 11415 Chácara Castelo II, Dourados - MS, 79835-000",
+    "telefone": "+55(67)34240015",
+    "latitude": -22.220833333333,
+    "longitude": -54.805833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos Ltda",
+    "endereco": "Rua Manoel da Costa Falcão, nº2735 - B. CIS , CEP: 44010-025 , Feira de Santana",
+    "telefone": "+55(75)33219100",
+    "latitude": -12.266944444444,
+    "longitude": -38.966944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Conterrânea Veículos Pesados Ltda",
+    "endereco": "Rodovia BR 116, Km 4, n° 8000 - Cajazeiras, CEP: 60864-012, Fortaleza",
+    "telefone": "+55(85)33072222",
+    "latitude": -3.7275,
+    "longitude": -38.5275,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Brasdiesel S.A. Comercial e Importadora",
+    "endereco": "Rod. BR 470, Km 222 - Distr - Garibaldina, CEP: 95720-000, Garibaldi",
+    "telefone": "+55(54)34638800",
+    "latitude": -29.255833333333,
+    "longitude": -51.533888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Covepe Comércio de Veículos Pesados Ltda",
+    "endereco": "Av. Cristiano Ferreira Varella, nº 59 - Vila Isa, CEP: 35044-214, Governador Valadares - MG",
+    "telefone": "+55(33)21019700",
+    "latitude": -18.850833333333,
+    "longitude": -41.948888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Cotrasa Veículos e Serviços LTDA",
+    "endereco": "Rua Jorge Alves Ribeiro nº 1068 - Bairro Conradinho, CEP: 85055-040, Guarapuava - PR",
+    "telefone": "+55 (42) 36297100",
+    "latitude": -25.395,
+    "longitude": -51.457777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda",
+    "endereco": "Rodovia Presidente Dutra, Km 223,8 - Vila Augusta, CEP: 07034-907, Guarulhos",
+    "telefone": "+55(11)21995000",
+    "latitude": -23.466666666667,
+    "longitude": -46.533333333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "MCM Comércio de Caminhões e Ônibus Ltda",
+    "endereco": "Rod. BR 153, Km 675, nº 500 - Lote 33A, Gleba 7 - Zona Rural, CEP: 77402-210, Gurupi",
+    "telefone": "+55(63)33114000",
+    "latitude": -11.728888888889,
+    "longitude": -49.068888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Brasdiesel S.A. Comercial e Importadora",
+    "endereco": "Rodovia BR 285, Km 457 - Hammarstron , CEP: 98700-000, Ijuí",
+    "telefone": "+55(55)33310500",
+    "latitude": -28.387777777778,
+    "longitude": -53.915,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "MCM Comércio de Caminhões e Ônibus Ltda",
+    "endereco": "Rodovia BR 010, 1503 - B. Santa Rita, CEP: 65917-220, Imperatriz",
+    "telefone": "+55(99)35299400",
+    "latitude": -5.5258333333333,
+    "longitude": -47.475833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Covepe Comercio de Veículos Pesados Ltda.",
+    "endereco": "Covepe Comércio de Veículos Pesados - Av. Maria Vieira Varella, 500 - Universitário, Muriaé - MG, 36888-248",
+    "telefone": "+55(31)999865725",
+    "latitude": -21.130833333333,
+    "longitude": -42.365833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Mecânica de Veículos Piçarras Ltda",
+    "endereco": "Rod. BR 101,KM 117 - Nº 5.100 - Salseiros, CEP: 88317-001, Itajaí",
+    "telefone": "+55(47)33410800",
+    "latitude": -26.907777777778,
+    "longitude": -48.661944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Varella Veículos Pesados Ltda",
+    "endereco": "Via Expressa Mucio de Souza Rezende, 3345 Setor Santa Rita , CEP: 75515-490, Itumbiara – GO",
+    "telefone": "+55 (64) 2103 1050",
+    "latitude": -18.42,
+    "longitude": -49.217777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos Ltda",
+    "endereco": "Rod. BR 101 SUL, S/Nº- Alt. do Km 80,6 - Bairro Muribeca, CEP: 54345-160, Jaboatão dos Guararapes",
+    "telefone": "+55(81)21019100",
+    "latitude": -8.1127777777778,
+    "longitude": -35.015,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda.",
+    "endereco": "Rodovia Regis Bittencourt, KM 467 + 400 metros, 11940-000, Jacupiranga",
+    "telefone": "+55(13)997281566",
+    "latitude": -24.6925,
+    "longitude": -48.002222222222,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Rovema Veículos e Máquinas Ltda",
+    "endereco": "Av. Transcontinental, 3685 Bairro: Jd. São Cristóvão saída para Cuiabá , CEP: 76913-899, Jí-Paraná",
+    "telefone": "+55(69)22010004",
+    "latitude": -10.885277777778,
+    "longitude": -61.951666666667,
+    "estado": "Paraná",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Mecânica de Veículos Piçarras Ltda",
+    "endereco": "Rodov. BR 101 - KM 37 - esq. Benjamin Constant, n° 4400, CEP: 89216-500, Joinville",
+    "telefone": "+55(47)34510300",
+    "latitude": -26.303888888889,
+    "longitude": -48.845833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Itaipu)",
+    "endereco": "Rod. BR 040 KM 776, s/nº, B. Distrito Industrial, CEP:36092-005, Juíz de Fora",
+    "telefone": "+55(32)32234455",
+    "latitude": -21.75,
+    "longitude": -43.35,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda",
+    "endereco": "R. Paraná nº100, Área C - Vila Maringá, CEP: 13210-040, Jundiaí",
+    "telefone": "+55(11)21368750",
+    "latitude": -23.186388888889,
+    "longitude": -46.884166666667,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "P. B. Lopes & Cia Ltda",
+    "endereco": "Rod. BR 359, km 516,7 - Zona Rural , CEP: 79370-000, Ladário",
+    "telefone": "+55(67)32346400",
+    "latitude": -19.005,
+    "longitude": -57.601944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda. (Cavese)",
+    "endereco": "Rodovia BR 116, Km 246 - Bairro Industrial, CEP: 88517-600, Lages",
+    "telefone": "+55(49)32213411",
+    "latitude": -27.815833333333,
+    "longitude": -50.325833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Brasdiesel S.A. Comercial e Importadora",
+    "endereco": "Rodovia BR 386, nº 6643, Km 341 - B. Centenário, CEP: 95910-160, Lajeado",
+    "telefone": "+55(51)37147700",
+    "latitude": -26.857777777778,
+    "longitude": -52.566944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Venac Veículos Nacionais Ltda",
+    "endereco": "Av. Prefeito Samuel Batista Cruz, nº 8280 - bairro: Santa Cruz, CEP: 29909-025 , Linhares - ES",
+    "telefone": "+55(27)32648700",
+    "latitude": -19.39866,
+    "longitude": -40.06506,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "P. B. Lopes & Cia Ltda",
+    "endereco": "P. B. Lopes | Scania - Av. Brasília, 3126 - Rodocentro, Londrina - PR, 86025-180",
+    "telefone": "+55(43)40090780",
+    "latitude": -23.31,
+    "longitude": -51.162777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos Ltda",
+    "endereco": "Rua Juscelino Kubitschech, n°4864, Cidade do automóvel, CEP: 47858-000, Luis Eduardo Magalhães",
+    "telefone": "+55(77) 36283341",
+    "latitude": -12.091944444444,
+    "longitude": -45.805,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Conterrânea Veículos Pesados Ltda",
+    "endereco": "Rod. BR 304, Nº 159, Km 301,4 - Zona de Expansão Urbana, CEP: 59280-000, Macaíba",
+    "telefone": "+55(84)21347000",
+    "latitude": -5.8577777777778,
+    "longitude": -35.353888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Supermac Máquinas e Caminhões da Amazônia Ltda",
+    "endereco": "Av. Silves, nº 1839 - Bairro do Crespo, CEP: 69073-175, Manaus",
+    "telefone": "+55(92)21014043",
+    "latitude": -3.11888888888889,
+    "longitude": -60.0216666666667,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Itaipu Norte)",
+    "endereco": "Rod. BR 155, Km 01 s/nº - Bairro Distrito Industrial, CEP:68508-970, Marabá",
+    "telefone": "+55(94)21038050",
+    "latitude": -5.3688888888889,
+    "longitude": -49.117777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "P. B. Lopes & Cia Ltda",
+    "endereco": "Av. Colombo, nº 674 - Pq. Industrial, CEP: 87045-000, Maringá",
+    "telefone": "+55(44)32285757",
+    "latitude": -23.425,
+    "longitude": -51.938888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Itaipu Norte)",
+    "endereco": "Rod. BR 316, Km 11, nº 2807 - B. Centro, CEP: 67200-000, Marituba",
+    "telefone": "+55(91)40052222",
+    "latitude": -1.355,
+    "longitude": -48.341944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Rota Oeste Veículos LTDA",
+    "endereco": "Rota Oeste Veiculos Scania - Matupá, Zona Rural - BR-163 Km 1046, Fazenda Iporá, S/N - Lote N. 14C2 - Quadra G, Matupá - MT, 78525-000",
+    "telefone": "+55(066)992112188",
+    "latitude": -10.056944444444,
+    "longitude": -54.932777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Itaipu)",
+    "endereco": "Av. Doutor Mario Tourinho, nº 4500 - Anel Rodoviário BR 135 - B. Independência, CEP: 39404-393, Montes Claros",
+    "telefone": "+55(38)32132200",
+    "latitude": -16.732222222222,
+    "longitude": -43.863611111111,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Conterrânea Veículos Pesados Ltda",
+    "endereco": "Av. Wilson Rosado, 2001 - Complem. Loja 3 - KM 38, 59607-770, Mossoró",
+    "telefone": "+55(84)34222400",
+    "latitude": -5.1877777777778,
+    "longitude": -37.343888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Covepe Comércio de Veículos Pesados Ltda",
+    "endereco": "Av. Maria Vieira Varella, nº 500 - Bairro Universitário, CEP: 36888-248, Muriaé - MG",
+    "telefone": "+55(32)37293400",
+    "latitude": -21.130833333333,
+    "longitude": -42.365833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos Ltda",
+    "endereco": "Rodovia Governador Mário Covas - BR 101, s/n Bairro Jardim, CEP: 49162-343, Nossa Senhora do Socorro",
+    "telefone": "+55(79)21049100",
+    "latitude": -10.855,
+    "longitude": -37.125833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "P. B. Lopes & Cia Ltda",
+    "endereco": "Av Eurico Soares Andrade, 251, Bairro Vila Operária, 79750-000, Nova Andradina",
+    "telefone": "+556739100500",
+    "latitude": -22.232777777778,
+    "longitude": -53.342777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Itaipu Norte)",
+    "endereco": "Itaipu Norte Scania - Paragominas, Inocêncio Oliveira - BR-010, S/N - Km 13, Paragominas - PA, 68625-295",
+    "telefone": "+55(91)31972501",
+    "latitude": -2.995,
+    "longitude": -47.352777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Brasdiesel S.A. Comercial e Importadora",
+    "endereco": "Rodovia BR 285, S/N, KM 301 – Bairro Valinhos, CEP: 99001-970, Passo Fundo",
+    "telefone": "+55 (54) 33187600",
+    "latitude": -28.262777777778,
+    "longitude": -52.406944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Cotrasa Veículos e Serviços LTDA",
+    "endereco": "Cotrasa Pato Branco - Concessionária Scania - BR-158, 12777 - KM 146 - Pato Branco, PR, 85508-280",
+    "telefone": "+55(46)32208400",
+    "latitude": -26.228888888889,
+    "longitude": -52.670833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Itaipu)",
+    "endereco": "Rodovia BR365, KM 408 - Planalto, CEP:38.706-328, Patos de Minas",
+    "telefone": "+55(34)38225555",
+    "latitude": -18.5871388888889,
+    "longitude": -46.5149444444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda. (Suvesa)",
+    "endereco": "Rod. BR 116, n° 4646 - Km 519,5 - Bairro: Tres Vendas, CEP:96070560, Pelotas",
+    "telefone": "+55(53)32743535",
+    "latitude": -31.771944444444,
+    "longitude": -52.342777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Itaipu)",
+    "endereco": "Av. Marginal Jayme Teixeira, nº 2282 - Bairro São Francisco, CEP:37260-000, Perdões",
+    "telefone": "+55(35)30420812",
+    "latitude": -21.090833333333,
+    "longitude": -45.090833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Cotrasa Veículos e Serviços LTDA",
+    "endereco": "Scania - Cotrasa - Ponta Grossa - Rodovia BR 376, S/N, KM 510 - Cará-Cará, Ponta Grossa - PR, 84043-450",
+    "telefone": "+55 (42) 32396600",
+    "latitude": -25.095,
+    "longitude": -50.161944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Quinta Roda)",
+    "endereco": "Av. João José Attab Miziara, nº 3020 - Jardim Reidencial Areia Branca, CEP: 13668-740, Porto Ferreira",
+    "telefone": "+55(19)35814144",
+    "latitude": -21.853888888889,
+    "longitude": -47.478888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Rovema Veículos e Máquinas Ltda",
+    "endereco": "Rodovia BR 364, Km 1 - Lagoa, CEP: 76812-317, Porto Velho",
+    "telefone": "+55(69)32187200",
+    "latitude": -8.7619444444444,
+    "longitude": -63.903888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda",
+    "endereco": "R. Vereador Genaro Vitale, n° 10 - São Fernando , CEP: 37556-503, Pouso Alegre",
+    "telefone": "+55(35)21025600",
+    "latitude": -22.228055555556,
+    "longitude": -45.933611111111,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "P. B. Lopes & Cia Ltda",
+    "endereco": "Rodovia Raposo Tavares, KM 559 - Distrito de Espigão, CEP: 19570-000, Regente Feijó",
+    "telefone": "+55(18)39411030",
+    "latitude": -23.550394444444,
+    "longitude": -46.633947222222,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Escandinavia Veículos Ltda",
+    "endereco": "Av. Brasil, nº 3939 - Rod. Anhanguera Km 318 - Pq. Industrial, CEP: 14077-210, Ribeirão Preto",
+    "telefone": "+55(16)30199900",
+    "latitude": -21.1776315,
+    "longitude": -47.8100983,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part. e Com. de Máq. e Veículos S.A. (WLM Equipo)",
+    "endereco": "Rod. Presidente Dutra, nº 2351 - Pq. Columbia, CEP: 21535-501, Rio de Janeiro",
+    "telefone": "+55(21)34529600",
+    "latitude": -22.9111111111111,
+    "longitude": -43.2055555555556,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Mecânica de Veículos Piçarras Ltda",
+    "endereco": "Rod. BR 470, Km 141,5 - nº7150 - Canta Galo, CEP: 89163-020, Rio do Sul",
+    "telefone": "+55(47)35203500",
+    "latitude": -27.213888888889,
+    "longitude": -49.642777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos Ltda",
+    "endereco": "Rodovia BR 101, Norte, Km 75 - Zona Rural, CEP: 57100-000, Rio Largo",
+    "telefone": "+55(82)21269100",
+    "latitude": -9.4777777777778,
+    "longitude": -35.852777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Varella Veículos Pesados Ltda",
+    "endereco": "Varella Veículos Pesados - Rio Verde - Rodovia BR 060, KM 420 - Parque Industrial, Rio Verde - GO, 75901-970",
+    "telefone": "+55(64)36115500",
+    "latitude": -17.797777777778,
+    "longitude": -50.927777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Rota Oeste Veículos Ltda",
+    "endereco": "Av. da Produção, KM 200 - Lote 1/9 Quadra 2 - Pq Industrial Vetorasso, CEP: 78745-000, Rondonópolis",
+    "telefone": "+55(66)34115555",
+    "latitude": -16.470833333333,
+    "longitude": -54.635833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos LTDA",
+    "endereco": "Rua Projetada Itamaraty, número: 57, Bairro: Augusto de Alencar Sampaio, 56000-000, Salgueiro",
+    "telefone": "+558721631855",
+    "latitude": -8.0669444444444,
+    "longitude": -39.122222222222,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "P. B. Lopes & Cia Ltda",
+    "endereco": "Rod. Raposo Tavares, Km 386 - Água do Cateto, CEP: 19920-000, Salto Grande",
+    "telefone": "+55(14)33784115",
+    "latitude": -22.892777777778,
+    "longitude": -49.985833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda. (Suvesa)",
+    "endereco": "Scania Suvesa - Santa Maria - BR-392, 3404 Vila - Tomazetti, Santa Maria - RS, 97065-400",
+    "telefone": "+55(55) 32111909",
+    "latitude": -29.683888888889,
+    "longitude": -53.806944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda",
+    "endereco": "Av. Marginal Direita, Via Anchieta, n° 2645 - Jardim São Manoel (Alt. Km 62), CEP: 11095-000, Santos",
+    "telefone": "+55(13)21022980",
+    "latitude": -23.960833333333,
+    "longitude": -46.333888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda",
+    "endereco": "Av. Nicola Demarchi, nº 601 - Vila Lúcia, CEP: 09820-655, São Bernardo do Campo",
+    "telefone": "+55(11)21760000",
+    "latitude": -23.693888888889,
+    "longitude": -46.565,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Itaipu)",
+    "endereco": "Rod. BR 381, KM 230, N° 70, CEP: 35935-000, São Gonçalo do Rio Abaixo - MG",
+    "telefone": "+55(31)33801491",
+    "latitude": -19.825833333333,
+    "longitude": -43.361944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Escandinavia Veículos Ltda",
+    "endereco": "Av. Tarraf, n° 3210 - Jd. Alto Alegre (Km59 da Rod. BR-153), CEP: 15057-430, São José do Rio Preto",
+    "telefone": "+55(17)32159770",
+    "latitude": -20.82,
+    "longitude": -49.378888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Cotrasa Veículos e Serviços LTDA",
+    "endereco": "Alameda Bom Pastor, 2094, - Bairro Ouro Fino, CEP: 83015-140, São José dos Pinhais",
+    "telefone": "+55(41)32997200",
+    "latitude": -25.535,
+    "longitude": -49.205833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "MCM Comércio de Caminhões e Ônibus Ltda",
+    "endereco": "Av. Eng. Emiliano Macieira nº 201 - Rod BR 135- Bairro Tibiri, CEP: 65095-600, São Luís",
+    "telefone": "+55(98)32141919",
+    "latitude": -2.53,
+    "longitude": -44.302777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Rota Oeste Veículos LTDA",
+    "endereco": "Rota Oeste Veículos - Sapezal - Av. Pref. André Antônio Maggi, 1099 - Setor Industrial, Sapezal - MT, 78365-000",
+    "telefone": "+55(065)21938743",
+    "latitude": -12.988888888889,
+    "longitude": -58.763888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda. (Suvesa)",
+    "endereco": "Rodovia BR 116, nº 2015, bairro: Três Portos, 93212-220, Sapucaia do Sul",
+    "telefone": "+55(051)34815050",
+    "latitude": -29.838888888889,
+    "longitude": -51.143888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos Ltda",
+    "endereco": "Rodovia BR 324, Km 115 16926 - Simões Filho, CEP 43700-000, Simões Filho",
+    "telefone": "+55(71)21039100",
+    "latitude": -12.783888888889,
+    "longitude": -38.403888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Rota Oeste Veículos Ltda",
+    "endereco": "R. João Pedro Moreira de Carvalho, n° 435 - Distrito Industrial, CEP: 78557-195, Sinop",
+    "telefone": "+55(66)35111500",
+    "latitude": -11.863888888889,
+    "longitude": -55.503888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda",
+    "endereco": "Rodovia Raposo Tavares, Km 102 - B. Vossoroca, CEP: 18052-775, Sorocaba",
+    "telefone": "+55(15)21027850",
+    "latitude": -23.501944444444,
+    "longitude": -47.457777777778,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "WLM Part e Com de Máq e Veículos S.A. (WLM Quinta Roda)",
+    "endereco": "Rod. Anhanguera, Km 114 - B. Jardim Dall´Orto, CEP: 13177-901, Sumaré",
+    "telefone": "+55(19)38548900",
+    "latitude": -22.821944444444,
+    "longitude": -47.266944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos Ltda",
+    "endereco": "Rodovia BR 101, Km 879, RJK nº946 - Monte Castelo, CEP: 45990-012, Teixeira de Freitas",
+    "telefone": "+55(73)33113900",
+    "latitude": -17.535,
+    "longitude": -39.741944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "MCM Comércio de Caminhões e Ônibus Ltda",
+    "endereco": "MCM Scania - Teresina - Av. Prefeito Wall Ferraz, 20.119 - Pedra Miúda, Teresina - PI, 64038-030",
+    "telefone": "+55(86)32206700",
+    "latitude": -5.09027777777778,
+    "longitude": -42.8166666666667,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda. (Suvesa)",
+    "endereco": "Rua:Inácio José Scheffer, 2430 - Bairro:Lado Par BR101, CEP:95580-000, Três Cachoeiras - RS",
+    "telefone": "+55(51)21441122",
+    "latitude": -29.455833333333,
+    "longitude": -49.923888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda. (Cavese)",
+    "endereco": "Rua José Alberto Nunes, Nº1151, Sala 01 - B. Humaitá de Cima, 88708025, Tubarão",
+    "telefone": "+55(48)36316200",
+    "latitude": -28.466944444444,
+    "longitude": -49.006944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Escandinavia Veículos Ltda",
+    "endereco": "Rua José Gomes da Silva Campos, nº 340, Parque das Américas, CEP: 38045-230, Uberaba",
+    "telefone": "+55(34)35219955",
+    "latitude": -19.747777777778,
+    "longitude": -47.931944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Escandinavia Veículos Ltda",
+    "endereco": "Rodovia BR 050, Km 73 - Tibery, CEP: 38405-060, Uberlândia",
+    "telefone": "+55(34)32338000",
+    "latitude": -18.918888888889,
+    "longitude": -48.276944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Varella Veículos Pesados Ltda",
+    "endereco": "Rodovia Frei Jorge, 540 (em frente ao Mart Minas), 38616470, Unai",
+    "telefone": "+5538999362274",
+    "latitude": -16.3638888888889,
+    "longitude": -46.8944444444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Cotrasa Veículos e Serviços LTDA",
+    "endereco": "Rod. BR 476, nº 4661 - KM 359, Sala 02 - Ouro Verde, CEP: 84608-150, União da Vitória - PR",
+    "telefone": "+55 (42) 35241700",
+    "latitude": -26.23,
+    "longitude": -51.085833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Varella Veículos Pesados Ltda",
+    "endereco": "1602, SN Quadra U-58, Lote 6 - Setor Sul II, 76400-000, Uruaçu",
+    "telefone": "+5562998177814",
+    "latitude": -14.525,
+    "longitude": -49.140833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Brasdiesel S.A. Comercial e Importadora",
+    "endereco": "Brasdiesel S/A Comercial e Importadora - Filial Vacaria - Bairro Industrial, Vacaria - RS, 95200-000",
+    "telefone": "+55(54)32314600",
+    "latitude": -28.511944444444,
+    "longitude": -50.933888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Venac Veículos Nacionais LTDA",
+    "endereco": "Rodovia Governador Mario Covas, S/N, Km 298 - Marcílio de Noronha, CEP: 29135-320, Viana - ES",
+    "telefone": "+55(27)21237900",
+    "latitude": 42.5151135,
+    "longitude": -2.3717803,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Codema Comercial e Importadora Ltda. (Cavese)",
+    "endereco": "Rodovia Estadual SC 355, Km 47,8 Rio das Pedras, 89563595, Videira",
+    "telefone": "+55(49)35313200",
+    "latitude": -27.007777777778,
+    "longitude": -51.151944444444,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Rovema Veículos e Máquinas Ltda",
+    "endereco": "Av. Celso Mazutti, n° 7857 - Setor Industrial (Alt. do km 10 da BR-364), CEP: 76987-487, Vilhena",
+    "telefone": "+55(69) 22020100",
+    "latitude": -12.740555555556,
+    "longitude": -60.145833333333,
+    "estado": "",
+    "marca": "SCANIA"
+  },
+  {
+    "nome": "Movesa Motores e Veículos Ltda",
+    "endereco": "Avenida Presidente Dutra, S/N, BR 116, Km 1070 - B. Felicia, CEP: 45055-480, Vitória da Conquista",
+    "telefone": "+55(77)40099100",
+    "latitude": -14.865833333333,
+    "longitude": -40.838888888889,
+    "estado": "",
+    "marca": "SCANIA"
+  }
+]
