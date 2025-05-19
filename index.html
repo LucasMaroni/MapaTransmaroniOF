@@ -1,244 +1,273 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mapa de Prestadores</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mapa de Prestadores</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      transition: background-color 0.3s;
-      overflow: hidden;
-    }
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        transition: background-color 0.3s;
+        overflow: hidden;
+      }
 
-    #map {
-  height: 100vh;
-  width: 100%;
-  display: block;
-    }
+      #map {
+    height: 100vh;
+    width: 100%;
+    display: block;
+      }
 
-    #toggle-theme, #export-btn, #toggle-sidebar {
-      position: fixed;
-      top: 15px;
-      z-index: 1000;
-      background-color: #444;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      cursor: pointer;
-      border-radius: 5px;
-      font-size: 14px;
-    }
+      #toggle-theme, #export-btn, #toggle-sidebar {
+        position: fixed;
+        top: 15px;
+        z-index: 1000;
+        background-color: #444;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+      }
 
-    #toggle-theme { right: 15px; }
-    #export-btn { right: 150px; background-color: #28a745; }
-    #toggle-sidebar { left: 70px; }
+      #toggle-theme { right: 15px; }
+      #export-btn { right: 150px; background-color: #28a745; }
+      #toggle-sidebar { left: 70px; }
 
-    .logo {
-      position: fixed;
-      top: 10px;
-      left: 10px;
-      z-index: 1000;
-    }
+      .logo {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+      }
 
-    .logo img {
-      height: 40px;
-    }
+      .logo img {
+        height: 40px;
+      }
 
-    #loading-screen {
-      position: fixed;
-      z-index: 9999;
-      background-color: #121212;
-      color: white;
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      font-size: 24px;
-    }
+      #loading-screen {
+        position: fixed;
+        z-index: 9999;
+        background-color: #121212;
+        color: white;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 24px;
+      }
 
-    .loader {
-      border: 6px solid #2c2c2c;
-      border-top: 6px solid #00ffcc;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      animation: spin 1s linear infinite;
-      margin-bottom: 20px;
-    }
+      .loader {
+        border: 6px solid #2c2c2c;
+        border-top: 6px solid #00ffcc;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        animation: spin 1s linear infinite;
+        margin-bottom: 20px;
+      }
 
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
 
-    .dark .leaflet-popup-content-wrapper {
-      background-color: #2c2c2c;
-      color: #fff;
-    }
+      .dark .leaflet-popup-content-wrapper {
+        background-color: #2c2c2c;
+        color: #fff;
+      }
 
-    /* Sidebar */
-    #sidebar {
-      position: fixed;
-      top: 0;
-      left: -300px;
-      width: 300px;
-      height: 100%;
-      background-color: #1e1e1e;
-      color: white;
-      padding: 20px;
-      z-index: 1100;
-      overflow-y: auto;
-      transition: left 0.3s ease;
-    }
+      /* Sidebar */
+      #sidebar {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        width: 300px;
+        height: 100%;
+        background-color: #1e1e1e;
+        color: white;
+        padding: 20px;
+        z-index: 1100;
+        overflow-y: auto;
+        transition: left 0.3s ease;
+      }
 
-    #sidebar.open {
-      left: 0;
-    }
+      #sidebar.open {
+        left: 0;
+      }
 
-    #search {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 10px;
-      border-radius: 4px;
-      border: none;
-      font-size: 14px;
-    }
+      #search {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        border: none;
+        font-size: 14px;
+      }
 
-    .result {
-      background-color: #333;
-      padding: 10px;
-      margin-bottom: 8px;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background 0.2s;
-    }
+      .result {
+        background-color: #333;
+        padding: 10px;
+        margin-bottom: 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
 
-    .result:hover {
-      background-color: #555;
-    }
+      .result:hover {
+        background-color: #555;
+      }
 
-    .sidebar-logo {
-  text-align: center;
-  margin-bottom: 15px;
-}
+      .sidebar-logo {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 
-.sidebar-logo img {
-  max-width: 58%;
-  height: auto;
-}
+  .sidebar-logo img {
+    max-width: 58%;
+    height: auto;
+  }
 
-#estado-filter {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  border-radius: 4px;
-  border: none;
-  font-size: 14px;
-}
-  </style>
-</head>
-<body>
+  #estado-filter {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+  }
+    </style>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+  />
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
-<!-- Tela de carregamento -->
-<div id="loading-screen">
-  <div class="loader"></div>
-  Carregando Mapa de Concessionárias...
-</div>
+  <body>
 
-<!-- Botões -->
-
-<select id="theme-select" style="position: fixed; top: 15px; right: 15px; z-index: 1000; padding: 8px; border-radius: 5px; font-size: 14px;">
-  <option value="dark">Tema Escuro</option>
-  <option value="light">Tema Claro</option>
-  <option value="satellite">Satélite</option>
-</select>
-
-<button id="export-btn">
-  <img src="logoexcel.png" style="height: 20px; vertical-align: middle; margin-right: 10px;">
-  Exportar para Excel
-</button>
-
-
-<button id="toggle-sidebar">🔍 Pesquisar</button>
-
-<!-- Barra lateral -->
-<div id="sidebar">
-  <div class="sidebar-logo">
-    <img src="Maroni-Transportes.png" alt="Logo da Empresa" />
+  <!-- Tela de carregamento -->
+  <div id="loading-screen">
+    <div class="loader"></div>
+    Carregando Mapa de Concessionárias...
   </div>
-  
-  <label for="concessionaria-filter" style="display: block; margin-bottom: 5px;">Tipo de Concessionária:</label>
-  <select id="concessionaria-filter" style="width: 100%; padding: 8px; border-radius: 4px; border: none; font-size: 14px; margin-bottom: 10px;">
-    <option value="">Todas as Concessionárias</option>
-    <option value="IVECO">IVECO</option>
-    <option value="SCANIA">SCANIA</option>
+
+  <!-- Botões -->
+
+  <select id="theme-select" style="position: fixed; top: 15px; right: 15px; z-index: 1000; padding: 8px; border-radius: 5px; font-size: 14px;">
+    <option value="dark">Tema Escuro</option>
+    <option value="light">Tema Claro</option>
+    <option value="satellite">Satélite</option>
   </select>
 
-  <select id="estado-filter">
-  <option value="">Todos os Estados</option>
-<option value="Acre">Acre</option>
-<option value="Alagoas">Alagoas</option>
-<option value="Amapá">Amapá</option>
-<option value="Amazonas">Amazonas</option>
-<option value="Bahia">Bahia</option>
-<option value="Ceará">Ceará</option>
-<option value="Distrito Federal">Distrito Federal</option>
-<option value="Espírito Santo">Espírito Santo</option>
-<option value="Goiás">Goiás</option>
-<option value="Maranhão">Maranhão</option>
-<option value="Mato Grosso">Mato Grosso</option>
-<option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
-<option value="Minas Gerais">Minas Gerais</option>
-<option value="Pará">Pará</option>
-<option value="Paraíba">Paraíba</option>
-<option value="Paraná">Paraná</option>
-<option value="Pernambuco">Pernambuco</option>
-<option value="Piauí">Piauí</option>
-<option value="Rio de Janeiro">Rio de Janeiro</option>
-<option value="Rio Grande do Norte">Rio Grande do Norte</option>
-<option value="Rio Grande do Sul">Rio Grande do Sul</option>
-<option value="Rondônia">Rondônia</option>
-<option value="Roraima">Roraima</option>
-<option value="Santa Catarina">Santa Catarina</option>
-<option value="São Paulo">São Paulo</option>
-<option value="Sergipe">Sergipe</option>
-<option value="Tocantins">Tocantins</option>
+  <button id="export-btn">
+    <img src="logoexcel.png" style="height: 20px; vertical-align: middle; margin-right: 10px;">
+    Exportar para Excel
+  </button>
 
-  <!-- Adicione mais estados conforme necessário -->
-</select>
 
-  <input type="text" id="search" placeholder="Buscar concessionária..." />
-  
-  <div style="margin-top: 10px;">
-    <label><input type="checkbox" id="filter-concessionarias" checked> Concessionárias</label><br>
-    <label><input type="checkbox" id="filter-oficinas" checked> Oficinas</label>
+  <button id="toggle-sidebar">🔍 Pesquisar</button>
+
+  <!-- Barra lateral -->
+  <div id="sidebar">
+    <div class="sidebar-logo">
+      <img src="Maroni-Transportes.png" alt="Logo da Empresa" />
+    </div>
+    
+    <label for="concessionaria-filter" style="display: block; margin-bottom: 5px;">Tipo de Concessionária:</label>
+    <select id="concessionaria-filter" style="width: 100%; padding: 8px; border-radius: 4px; border: none; font-size: 14px; margin-bottom: 10px;">
+      <option value="">Todas as Concessionárias</option>
+      <option value="IVECO">IVECO</option>
+      <option value="SCANIA">SCANIA</option>
+    </select>
+
+    <select id="estado-filter">
+    <option value="">Todos os Estados</option>
+  <option value="Acre">Acre</option>
+  <option value="Alagoas">Alagoas</option>
+  <option value="Amapá">Amapá</option>
+  <option value="Amazonas">Amazonas</option>
+  <option value="Bahia">Bahia</option>
+  <option value="Ceará">Ceará</option>
+  <option value="Distrito Federal">Distrito Federal</option>
+  <option value="Espírito Santo">Espírito Santo</option>
+  <option value="Goiás">Goiás</option>
+  <option value="Maranhão">Maranhão</option>
+  <option value="Mato Grosso">Mato Grosso</option>
+  <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+  <option value="Minas Gerais">Minas Gerais</option>
+  <option value="Pará">Pará</option>
+  <option value="Paraíba">Paraíba</option>
+  <option value="Paraná">Paraná</option>
+  <option value="Pernambuco">Pernambuco</option>
+  <option value="Piauí">Piauí</option>
+  <option value="Rio de Janeiro">Rio de Janeiro</option>
+  <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+  <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+  <option value="Rondônia">Rondônia</option>
+  <option value="Roraima">Roraima</option>
+  <option value="Santa Catarina">Santa Catarina</option>
+  <option value="São Paulo">São Paulo</option>
+  <option value="Sergipe">Sergipe</option>
+  <option value="Tocantins">Tocantins</option>
+
+    <!-- Adicione mais estados conforme necessário -->
+  </select>
+
+    <input type="text" id="search" placeholder="Buscar concessionária..." />
+    
+    <div style="margin-top: 10px;">
+      <label><input type="checkbox" id="filter-concessionarias" checked> Concessionárias</label><br>
+      <label><input type="checkbox" id="filter-oficinas" checked> Oficinas</label>
+    </div>
+
+    <div id="results-count" style="margin-bottom: 10px; font-size: 14px;"></div>
+    <div id="results" style="max-height: calc(100vh - 400px); overflow-y: auto;"></div>
   </div>
 
-  <div id="results-count" style="margin-bottom: 10px; font-size: 14px;"></div>
-  <div id="results" style="max-height: calc(100vh - 400px); overflow-y: auto;"></div>
-</div>
+
+  <!-- Mapa -->
+  <div id="map"></div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script>
+
+    const darkBlueIcon = new L.Icon({
+      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+      shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
 
 
-<!-- Mapa -->
-<div id="map"></div>
+    const orangeIcon = new L.Icon({
+      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png',
+      shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
 
-<!-- Scripts -->
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-<script>
-
-  const darkBlueIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+    const greenIcon = new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
     shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
@@ -247,287 +276,275 @@
   });
 
 
-  const orangeIcon = new L.Icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png',
-    shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-  });
+    setTimeout(() => {
+      document.getElementById('loading-screen').style.display = 'none';
+      document.getElementById('map').style.display = 'block';
 
-  const greenIcon = new L.Icon({
-  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
-  shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41]
-});
+      let darkMode = true;
 
+      const satelliteTile = L.layerGroup([
+        L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'),
+        L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}')
+      ]);
 
-  setTimeout(() => {
-    document.getElementById('loading-screen').style.display = 'none';
-    document.getElementById('map').style.display = 'block';
-
-    let darkMode = true;
-
-    const satelliteTile = L.layerGroup([
-      L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'),
-      L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}')
-    ]);
-
-    const darkTile = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; OpenStreetMap & CartoDB',
-      subdomains: 'abcd',
-      maxZoom: 19
-    });
-
-    const lightTile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors'
-    });
-
-    const map = L.map('map', {
-      center: [-14.2350, -51.9253],
-      zoom: 4,
-      layers: [darkTile]
-    });
-
-    L.control.zoom({ position: 'bottomright' }).addTo(map);
-
-    document.body.classList.add("dark");
-
-    
-    const themeSelect = document.getElementById("theme-select");
-    themeSelect.addEventListener("change", () => {
-      const theme = themeSelect.value;
-      map.removeLayer(darkTile);
-      map.removeLayer(lightTile);
-      map.removeLayer(satelliteTile);
-      if (theme === "dark") {
-        map.addLayer(darkTile);
-        document.body.classList.add("dark");
-      } else if (theme === "light") {
-        map.addLayer(lightTile);
-        document.body.classList.remove("dark");
-      } else if (theme === "satellite") {
-        map.addLayer(satelliteTile);
-        document.body.classList.remove("dark");
-      }
-    });
-
-    // Abrir/Fechar barra lateral
-    const sidebar = document.getElementById("sidebar");
-    document.getElementById("toggle-sidebar").addEventListener("click", () => {
-      sidebar.classList.toggle("open");
-    });
-
-    // Busca dinâmica
-    const searchInput = document.getElementById("search");
-    const resultsDiv = document.getElementById("results");
-    const estadoFilter = document.getElementById("estado-filter");
-
-    // Carregar dados do JSON
-    fetch('https://raw.githubusercontent.com/LucasMaroni/MapaTransmaroniOF/main/Concessionarias.json')
-      .then(response => response.json())
-      .then(concessionarias => {
-        const markers = [];
-
-        concessionarias.forEach(conc => {
-          const marker = L.marker([conc.latitude, conc.longitude], { icon: darkBlueIcon , opacity: 0.0 })
-            .addTo(map)
-            .bindPopup(`
-              <strong>${conc.nome}</strong><br>
-              ${conc.endereco}<br>
-              <strong>Tel:</strong> ${conc.telefone}<br>
-              <strong>Email:</strong> ${conc.email}
-            `);
-
-          markers.push({ ...conc, marker });
-
-          let opacity = 0;
-          const fadeIn = setInterval(() => {
-            opacity += 0.1;
-            if (opacity >= 1) {
-              clearInterval(fadeIn);
-              marker.setOpacity(1);
-            } else {
-              marker.setOpacity(opacity);
-            }
-          }, 50);
-        });
-        
-
-        fetch('https://raw.githubusercontent.com/LucasMaroni/MapaTransmaroniOF/main/contatosoficinasofc.json')
-        .then(response => response.json())
-        .then(oficinas => {
-          oficinas.forEach(of => {
-            const marker = L.marker([of.latitude, of.longitude], { icon: orangeIcon, opacity: 0.0 })
-              .addTo(map)
-              .bindPopup(`
-                <strong>${of.nome}</strong><br>
-                ${of.endereco}<br>
-                <strong>Tel:</strong> ${of.telefone}<br>
-                <strong>Email:</strong> ${of.email}
-              `);
-
-      markers.push({ ...of, marker, tipo: "oficina" });
-
-      let opacity = 0;
-      const fadeIn = setInterval(() => {
-        opacity += 0.1;
-        if (opacity >= 1) {
-          clearInterval(fadeIn);
-          marker.setOpacity(1);
-        } else {
-          marker.setOpacity(opacity);
-        }
-      }, 50);
-    });
-
-        fetch('https://raw.githubusercontent.com/LucasMaroni/MapaTransmaroniOF/main/basescaniaoficial.json')
-      .then(response => response.json())
-      .then(scania => {
-        scania.forEach(sc => {
-          const marker = L.marker([sc.latitude, sc.longitude], { icon: greenIcon, opacity: 0.0 })
-            .addTo(map)
-            .bindPopup(`
-              <strong>${sc.nome}</strong><br>
-              ${sc.endereco}<br>
-              <strong>Tel:</strong> ${sc.telefone}<br>
-              <strong>Email:</strong> ${sc.email}
-            `);
-
-          markers.push({ ...sc, marker, tipo: "scania" });
-
-          let opacity = 0;
-          const fadeIn = setInterval(() => {
-            opacity += 0.1;
-            if (opacity >= 1) {
-              clearInterval(fadeIn);
-              marker.setOpacity(1);
-            } else {
-              marker.setOpacity(opacity);
-            }
-          }, 50);
-        });
-
-        filtrarResultados(); // Atualiza a lista de resultados e filtros para incluir Scania
-      })
-      .catch(err => console.error("Erro ao carregar base Scania:", err));
-
-
-    // Remover esta linha, pois totalVisiveis não está definido aqui
-    // document.getElementById("results-count").innerText = `${totalVisiveis} resultado(s) encontrado(s)`;
-
-    filtrarResultados();
-
-
-        const heatPoints = markers.map(m => [m.latitude, m.longitude]);
-        const heat = L.heatLayer(heatPoints, { radius: 25, blur: 15, maxZoom: 10 }).addTo(map);
-
-        heatPoints.forEach(coord => {
-          const circle = L.circleMarker(coord, {
-            radius: 15,
-            fillOpacity: 0,
-            weight: 0
-          }).addTo(map);
-          circle.on("click", () => map.setView(coord, 12));
-        });
-
-  });
-      
-
-
-        // Exportar para Excel
-        // Exportar dados filtrados para Excel
-        document.getElementById("export-btn").addEventListener("click", () => {
-          const dadosFiltrados = markers.filter(m => map.hasLayer(m.marker));
-          const ws_data = [
-            ["Nome", "Endereço", "Telefone", "Email", "Latitude", "Longitude"],
-            ...dadosFiltrados.map(c => [
-              c.nome, c.endereco, c.telefone, c.email, c.latitude, c.longitude
-            ])
-          ];
-          const wb = XLSX.utils.book_new();
-          const ws = XLSX.utils.aoa_to_sheet(ws_data);
-          XLSX.utils.book_append_sheet(wb, ws, "PrestadoresFiltrados");
-          XLSX.writeFile(wb, "prestadores_filtrados.xlsx");
-        });
-
-        // Filtrar resultados
-        
-        function filtrarResultados() {
-          const query = searchInput.value.toLowerCase();
-          const estadoSelecionado = estadoFilter.value;
-          const showConcessionarias = document.getElementById("filter-concessionarias").checked;
-          const showOficinas = document.getElementById("filter-oficinas").checked;
-          const tipoConcessionariaSelecionada = document.getElementById("concessionaria-filter")?.value.toUpperCase() ?? "";
-
-          resultsDiv.innerHTML = "";
-          let totalVisiveis = 0;
-
-          markers.forEach(m => {
-            const tipo = m.tipo || "concessionaria";
-            const atendeTipo = (tipo === "oficina" && showOficinas) || 
-                   ((tipo === "concessionaria" || tipo === "scania") && showConcessionarias);
-
-            // NOVA LÓGICA DE FILTRO DE MARCA
-            let atendeMarca = true;
-            if (tipoConcessionariaSelecionada === "IVECO") {
-              atendeMarca = tipo === "concessionaria";
-            } else if (tipoConcessionariaSelecionada === "SCANIA") {
-              atendeMarca = tipo === "scania";
-            }
-
-            const termosBusca = query.split(" ").filter(p => p.trim() !== "");
-            const atendeTexto = termosBusca.every(palavra =>
-              (m.nome?.toLowerCase().includes(palavra) ||
-               m.endereco?.toLowerCase().includes(palavra) ||
-               m.telefone?.toLowerCase().includes(palavra) ||
-               m.email?.toLowerCase().includes(palavra) ||
-               m.cidade?.toLowerCase().includes(palavra) ||
-               m.estado?.toLowerCase().includes(palavra))
-            );
-
-            const atendeEstado = estadoSelecionado === "" || (m.estado && m.estado.toLowerCase() === estadoSelecionado.toLowerCase()) || (m.endereco && m.endereco.toLowerCase().includes(estadoSelecionado.toLowerCase()));
-
-            const mostrar = atendeTexto && atendeEstado && atendeTipo && atendeMarca;
-
-            if (mostrar) {
-              m.marker.addTo(map);
-              const div = document.createElement("div");
-              div.className = "result";
-              div.innerHTML = `<strong>${m.nome}</strong><br>${m.endereco}`;
-              div.addEventListener("click", () => {
-                map.setView([m.latitude, m.longitude], 16);
-                m.marker.openPopup();
-              });
-              resultsDiv.appendChild(div);
-              totalVisiveis++;
-            } else {
-              map.removeLayer(m.marker);
-            }
-          });
-          document.getElementById("results-count").innerText = `${totalVisiveis} resultado(s) encontrado(s)`;
-        }
-        // Eventos para busca dinâmica
-
-        document.getElementById("filter-concessionarias").addEventListener("change", filtrarResultados);
-        document.getElementById("filter-oficinas").addEventListener("change", filtrarResultados);
-
-        searchInput.addEventListener("input", filtrarResultados);
-        estadoFilter.addEventListener("change", filtrarResultados);
-        document.getElementById("concessionaria-filter").addEventListener("change", filtrarResultados);
-
-      })
-      .catch(error => {
-        console.error("Erro ao carregar o JSON:", error);
+      const darkTile = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; OpenStreetMap & CartoDB',
+        subdomains: 'abcd',
+        maxZoom: 19
       });
 
-  }, 1000);
-</script>
+      const lightTile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+      });
+
+      const map = L.map('map', {
+        center: [-14.2350, -51.9253],
+        zoom: 4,
+        layers: [darkTile]
+      });
+
+      L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+      document.body.classList.add("dark");
+
+      
+      const themeSelect = document.getElementById("theme-select");
+      themeSelect.addEventListener("change", () => {
+        const theme = themeSelect.value;
+        map.removeLayer(darkTile);
+        map.removeLayer(lightTile);
+        map.removeLayer(satelliteTile);
+        if (theme === "dark") {
+          map.addLayer(darkTile);
+          document.body.classList.add("dark");
+        } else if (theme === "light") {
+          map.addLayer(lightTile);
+          document.body.classList.remove("dark");
+        } else if (theme === "satellite") {
+          map.addLayer(satelliteTile);
+          document.body.classList.remove("dark");
+        }
+      });
+
+      // Abrir/Fechar barra lateral
+      const sidebar = document.getElementById("sidebar");
+      document.getElementById("toggle-sidebar").addEventListener("click", () => {
+        sidebar.classList.toggle("open");
+      });
+
+      // Busca dinâmica
+      const searchInput = document.getElementById("search");
+      const resultsDiv = document.getElementById("results");
+      const estadoFilter = document.getElementById("estado-filter");
+
+      // Carregar dados do JSON
+      fetch('https://raw.githubusercontent.com/LucasMaroni/MapaTransmaroniOF/main/Concessionarias.json')
+        .then(response => response.json())
+        .then(concessionarias => {
+          const markers = [];
+
+          concessionarias.forEach(conc => {
+            const marker = L.marker([conc.latitude, conc.longitude], { icon: darkBlueIcon , opacity: 0.0 })
+              .addTo(map)
+              .bindPopup(`
+                <img src="https://rebelmotors.eu/wp-content/uploads/et_temp/iveco-logo-png-transparent-66039_1080x675.png" alt="IVECO" style="width:80px; height:auto; border-radius:8px; margin-right:8px;">
+                <div>
+                  <strong>${conc.nome}</strong><br>
+                  ${conc.endereco}<br>
+                  <strong>Tel:</strong> ${conc.telefone}<br>
+                  <strong>Email:</strong> ${conc.email}
+                </div>
+              `);
+
+            markers.push({ ...conc, marker });
+
+            let opacity = 0;
+            const fadeIn = setInterval(() => {
+              opacity += 0.1;
+              if (opacity >= 1) {
+                clearInterval(fadeIn);
+                marker.setOpacity(1);
+              } else {
+                marker.setOpacity(opacity);
+              }
+            }, 50);
+          });
 
 
-</body>
-</html>
+          fetch('https://raw.githubusercontent.com/LucasMaroni/MapaTransmaroniOF/main/contatosoficinasofc.json')
+          .then(response => response.json())
+          .then(oficinas => {
+            oficinas.forEach(of => {
+              const marker = L.marker([of.latitude, of.longitude], { icon: orangeIcon, opacity: 0.0 })
+                .addTo(map)
+                .bindPopup(`
+                  <img src="https://th.bing.com/th/id/R.c19cae81ee05269982fde87f4183a2d1?rik=ybiFwYOIMDnA0Q&riu=http%3a%2f%2fclipart-library.com%2fimage_gallery2%2fTool.png&ehk=ORQHBlcuAKI3DeFaiECQ5PdmxeRpGKqw1R9kaz%2f%2fCA8%3d&risl=&pid=ImgRaw&r=0" style="width:50px; height:auto; border-radius:8px; margin-right:8px;">
+                  <div>
+                    <strong>${of.nome}</strong><br>
+                    ${of.endereco}<br>
+                    <strong>Tel:</strong> ${of.telefone}<br>
+                    <strong>Email:</strong> ${of.email}
+                  </div>
+                `);
+
+        markers.push({ ...of, marker, tipo: "oficina" });
+
+        let opacity = 0;
+        const fadeIn = setInterval(() => {
+          opacity += 0.1;
+          if (opacity >= 1) {
+            clearInterval(fadeIn);
+            marker.setOpacity(1);
+          } else {
+            marker.setOpacity(opacity);
+          }
+        }, 50);
+      });
+
+          fetch('https://raw.githubusercontent.com/LucasMaroni/MapaTransmaroniOF/main/basescaniaoficial.json')
+        .then(response => response.json())
+        .then(scania => {
+          scania.forEach(sc => {
+            const marker = L.marker([sc.latitude, sc.longitude], { icon: darkBlueIcon, opacity: 0.0 })
+              .addTo(map)
+              .bindPopup(`
+                <img src="https://listcarbrands.com/wp-content/uploads/2019/05/Scania-Logo.png" alt="Scania" style="width:90px; height:auto; border-radius:8px; margin-right:50px;">
+                <div>
+                  <strong>${sc.nome}</strong><br>
+                  ${sc.endereco}<br>
+                  <strong>Tel:</strong> ${sc.telefone}<br>
+                  <strong>Email:</strong> ${sc.email}
+                </div>
+              `);
+
+            markers.push({ ...sc, marker, tipo: "scania" });
+
+            let opacity = 0;
+            const fadeIn = setInterval(() => {
+              opacity += 0.1;
+              if (opacity >= 1) {
+                clearInterval(fadeIn);
+                marker.setOpacity(1);
+              } else {
+                marker.setOpacity(opacity);
+              }
+            }, 50);
+          });
+
+          filtrarResultados(); // Atualiza a lista de resultados e filtros para incluir Scania
+        })
+        .catch(err => console.error("Erro ao carregar base Scania:", err));
+
+
+      // Remover esta linha, pois totalVisiveis não está definido aqui
+      // document.getElementById("results-count").innerText = `${totalVisiveis} resultado(s) encontrado(s)`;
+
+      filtrarResultados();
+
+
+          const heatPoints = markers.map(m => [m.latitude, m.longitude]);
+          const heat = L.heatLayer(heatPoints, { radius: 25, blur: 15, maxZoom: 10 }).addTo(map);
+
+          heatPoints.forEach(coord => {
+            const circle = L.circleMarker(coord, {
+              radius: 15,
+              fillOpacity: 0,
+              weight: 0
+            }).addTo(map);
+            circle.on("click", () => map.setView(coord, 12));
+          });
+
+    });
+
+          // Exportar para Excel
+          // Exportar dados filtrados para Excel
+          document.getElementById("export-btn").addEventListener("click", () => {
+            const dadosFiltrados = markers.filter(m => map.hasLayer(m.marker));
+            const ws_data = [
+              ["Nome", "Endereço", "Telefone", "Email", "Latitude", "Longitude"],
+              ...dadosFiltrados.map(c => [
+                c.nome, c.endereco, c.telefone, c.email, c.latitude, c.longitude
+              ])
+            ];
+            const wb = XLSX.utils.book_new();
+            const ws = XLSX.utils.aoa_to_sheet(ws_data);
+            XLSX.utils.book_append_sheet(wb, ws, "PrestadoresFiltrados");
+            XLSX.writeFile(wb, "prestadores_filtrados.xlsx");
+          });
+
+          // Filtrar resultados
+          
+          function filtrarResultados() {
+            const query = searchInput.value.toLowerCase();
+            const estadoSelecionado = estadoFilter.value;
+            const showConcessionarias = document.getElementById("filter-concessionarias").checked;
+            const showOficinas = document.getElementById("filter-oficinas").checked;
+            const tipoConcessionariaSelecionada = document.getElementById("concessionaria-filter")?.value.toUpperCase() ?? "";
+
+            resultsDiv.innerHTML = "";
+            let totalVisiveis = 0;
+
+            markers.forEach(m => {
+              const tipo = m.tipo || "concessionaria";
+              const atendeTipo = (tipo === "oficina" && showOficinas) || 
+                    ((tipo === "concessionaria" || tipo === "scania") && showConcessionarias);
+
+              // NOVA LÓGICA DE FILTRO DE MARCA
+              let atendeMarca = true;
+              if (tipoConcessionariaSelecionada === "IVECO") {
+                atendeMarca = tipo === "concessionaria";
+              } else if (tipoConcessionariaSelecionada === "SCANIA") {
+                atendeMarca = tipo === "scania";
+              }
+
+              const termosBusca = query.split(" ").filter(p => p.trim() !== "");
+              const atendeTexto = termosBusca.every(palavra =>
+                (m.nome?.toLowerCase().includes(palavra) ||
+                m.endereco?.toLowerCase().includes(palavra) ||
+                m.telefone?.toLowerCase().includes(palavra) ||
+                m.email?.toLowerCase().includes(palavra) ||
+                m.cidade?.toLowerCase().includes(palavra) ||
+                m.estado?.toLowerCase().includes(palavra))
+              );
+
+              const atendeEstado = estadoSelecionado === "" || (m.estado && m.estado.toLowerCase() === estadoSelecionado.toLowerCase()) || (m.endereco && m.endereco.toLowerCase().includes(estadoSelecionado.toLowerCase()));
+
+              const mostrar = atendeTexto && atendeEstado && atendeTipo && atendeMarca;
+
+              if (mostrar) {
+                m.marker.addTo(map);
+                const div = document.createElement("div");
+                div.className = "result";
+                div.innerHTML = `<strong>${m.nome}</strong><br>${m.endereco}`;
+                div.addEventListener("click", () => {
+                  map.setView([m.latitude, m.longitude], 16);
+                  m.marker.openPopup();
+                });
+                resultsDiv.appendChild(div);
+                totalVisiveis++;
+              } else {
+                map.removeLayer(m.marker);
+              }
+            });
+            document.getElementById("results-count").innerText = `${totalVisiveis} resultado(s) encontrado(s)`;
+          }
+          // Eventos para busca dinâmica
+
+          document.getElementById("filter-concessionarias").addEventListener("change", filtrarResultados);
+          document.getElementById("filter-oficinas").addEventListener("change", filtrarResultados);
+
+          searchInput.addEventListener("input", filtrarResultados);
+          estadoFilter.addEventListener("change", filtrarResultados);
+          document.getElementById("concessionaria-filter").addEventListener("change", filtrarResultados);
+
+        })
+        .catch(error => {
+          console.error("Erro ao carregar o JSON:", error);
+        });
+
+    }, 1000);
+  </script>
+
+
+  </body>
+  </html>
